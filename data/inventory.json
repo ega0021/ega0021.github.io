@@ -1,0 +1,173 @@
+[
+    {
+        "sku": "AABB001",
+        "nombre": "Producto I",
+        "descripcion": "descripción del producto",
+        "precio": 10.99,
+        "moneda": "EUR",
+        "fotos": {
+            "portada": "https://placehold.co/800x800/f0e7db/f4c0d2?text=TSC",
+            "galeria": {
+                "marron": ["https://placehold.co/800x800/f0e7db/4a0018?text=TSC", "https://placehold.co/800x800/f0e7db/4a0018?text=TSC"]
+            }
+        },
+        "colores": ["marron"],
+        "categoria": "clasica",
+        "peso": 1,
+        "fecha_actualizacion": "AAAA_MM_DD",
+        "url_producto": "/"
+    },
+    {
+        "sku": "AABB002",
+        "nombre": "Producto II",
+        "descripcion": "descripción del producto",
+        "precio": 7.99,
+        "moneda": "EUR",
+        "fotos": {
+            "portada": "https://placehold.co/800x800/f0e7db/f4c0d2?text=TSC",
+            "galeria": {
+                "marron": ["https://placehold.co/800x800/f0e7db/4a0018?text=TSC", "https://placehold.co/800x800/f0e7db/4a0018?text=TSC"]
+            }
+        },
+        "colores": ["marron"],
+        "categoria": "clasica",
+        "peso": 1,
+        "fecha_actualizacion": "AAAA_MM_DD"
+    },
+    {
+        "sku": "AABB003",
+        "nombre": "Producto III",
+        "descripcion": "descripción del producto",
+        "precio": 5.95,
+        "moneda": "EUR",
+        "fotos": {
+            "portada": "https://placehold.co/800x800/f0e7db/f4c0d2?text=TSC",
+            "galeria": {
+                "marron": ["https://placehold.co/800x800/f0e7db/4a0018?text=TSC", "https://placehold.co/800x800/f0e7db/4a0018?text=TSC"]
+            }
+        },
+        "colores": ["marron"],
+        "categoria": "clasica",
+        "peso": 1,
+        "fecha_actualizacion": "AAAA_MM_DD"
+    },
+    {
+        "sku": "AABB004",
+        "nombre": "Producto IV",
+        "descripcion": "descripción del producto",
+        "precio": 24.95,
+        "moneda": "EUR",
+        "fotos": {
+            "portada": "https://placehold.co/800x800/f0e7db/f4c0d2?text=TSC",
+            "galeria": {
+                "marron": ["https://placehold.co/800x800/f0e7db/4a0018?text=TSC", "https://placehold.co/800x800/f0e7db/4a0018?text=TSC"]
+            }
+        },
+        "colores": ["marron"],
+        "categoria": "colorpulse",
+        "peso": 1,
+        "fecha_actualizacion": "AAAA_MM_DD"
+    },
+    {
+        "sku": "AABB005",
+        "nombre": "Producto V",
+        "descripcion": "descripción del producto",
+        "precio": 2.99,
+        "moneda": "EUR",
+        "fotos": {
+            "portada": "https://placehold.co/800x800/f0e7db/f4c0d2?text=TSC",
+            "galeria": {
+                "marron": ["https://placehold.co/800x800/f0e7db/4a0018?text=TSC", "https://placehold.co/800x800/f0e7db/4a0018?text=TSC"]
+            }
+        },
+        "colores": ["marron"],
+        "categoria": "colorpulse",
+        "peso": 1,
+        "fecha_actualizacion": "AAAA_MM_DD"
+    },
+    {
+        "sku": "AABB006",
+        "nombre": "Producto VI",
+        "descripcion": "descripción del producto",
+        "precio": 10.00,
+        "moneda": "EUR",
+        "fotos": {
+            "portada": "https://placehold.co/800x800/f0e7db/f4c0d2?text=TSC",
+            "galeria": {
+                "marron": ["https://placehold.co/800x800/f0e7db/4a0018?text=TSC", "https://placehold.co/800x800/f0e7db/4a0018?text=TSC"]
+            }
+        },
+        "colores": ["marron"],
+        "categoria": "colorpulse",
+        "peso": 1,
+        "fecha_actualizacion": "AAAA_MM_DD"
+    },
+    {
+        "sku": "AABB007",
+        "nombre": "Producto VII",
+        "descripcion": "descripción del producto",
+        "precio": 7.99,
+        "moneda": "EUR",
+        "fotos": {
+            "portada": "https://placehold.co/800x800/f0e7db/f4c0d2?text=TSC",
+            "galeria": {
+                "marron": ["https://placehold.co/800x800/f0e7db/4a0018?text=TSC", "https://placehold.co/800x800/f0e7db/4a0018?text=TSC"]
+            }
+        },
+        "colores": ["marron"],
+        "categoria": "colorpulse",
+        "peso": 1,
+        "fecha_actualizacion": "AAAA_MM_DD"
+    },
+    {
+        "sku": "AABB008",
+        "nombre": "Producto VIII",
+        "descripcion": "descripción del producto",
+        "precio": 12.50,
+        "moneda": "EUR",
+        "fotos": {
+            "portada": "https://placehold.co/800x800/f0e7db/f4c0d2?text=TSC",
+            "galeria": {
+                "marron": ["https://placehold.co/800x800/f0e7db/4a0018?text=TSC", "https://placehold.co/800x800/f0e7db/4a0018?text=TSC"]
+            }
+        },
+        "colores": ["marron"],
+        "categoria": "exclusive",
+        "peso": 1,
+        "fecha_actualizacion": "AAAA_MM_DD"
+    },
+    {
+        "sku": "AABB009",
+        "nombre": "IX",
+        "descripcion": "descripción del producto",
+        "precio": 14.95,
+        "moneda": "EUR",
+        "fotos": {
+            "portada": "https://placehold.co/800x800/f0e7db/f4c0d2?text=TSC",
+            "galeria": {
+                "marron": ["https://placehold.co/800x800/f0e7db/4a0018?text=TSC", "https://placehold.co/800x800/f0e7db/4a0018?text=TSC"]
+            }
+        },
+        "colores": ["marron"],
+        "categoria": "exclusive",
+        "peso": 1,
+        "fecha_actualizacion": "AAAA_MM_DD"
+    },
+    {
+        "sku": "AABB010",
+        "nombre": "X",
+        "descripcion": "descripción del producto",
+        "precio": 22.99,
+        "moneda": "EUR",
+        "fotos": {
+            "portada": "https://placehold.co/800x800/f0e7db/f4c0d2?text=TSC",
+            "galeria": {
+                "marron": ["https://placehold.co/800x800/f0e7db/4a0018?text=TSC", "https://placehold.co/800x800/f0e7db/4a0018?text=TSC"]
+            }
+        },
+        "colores": ["marron"],
+        "categoria": "exclusive",
+        "peso": 1,
+        "fecha_actualizacion": "AAAA_MM_DD"
+    }
+]
