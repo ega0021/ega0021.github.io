@@ -138,7 +138,7 @@
     },
     {
         "sku": "AABB009",
-        "nombre": "IX",
+        "nombre": "Producto IX",
         "descripcion": "descripción del producto",
         "precio": 14.95,
         "moneda": "EUR",
@@ -155,7 +155,7 @@
     },
     {
         "sku": "AABB010",
-        "nombre": "X",
+        "nombre": "Producto X",
         "descripcion": "descripción del producto",
         "precio": 22.99,
         "moneda": "EUR",
@@ -166,7 +166,7 @@
             }
         },
         "colores": ["marron"],
-        "categoria": "exclusive",
+        "categoria": "clasica",
         "peso": 1,
         "fecha_actualizacion": "AAAA_MM_DD"
     }

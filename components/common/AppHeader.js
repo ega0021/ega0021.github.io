@@ -16,8 +16,8 @@ class AppHeader extends HTMLElement {
             <nav>
                 <ul>
                     <li><a href="/html/e-commerce/categories/clasica.html">Gama Clásica</a></li>
-                    <li><a href="#">Enlace 2</a></li>
-                    <li><a href="#">Enlace 3</a></li>
+                    <li><a href="/html/e-commerce/categories/colorpulse.html">Gama Color Pulse</a></li>
+                    <li><a href="/html/e-commerce/categories/exclusive.html">Gama Exclusive</a></li>
                     <li><a href="#">Enlace 4</a></li>
                 </ul>
             </nav>
