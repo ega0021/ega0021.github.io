@@ -1,3 +1,5 @@
+import { sesionIniciada } from "/js/api/auth.js";
+
 const botonUsuario = document.getElementById("botonUsuario");
 
 botonUsuario.addEventListener("click", (e) => {

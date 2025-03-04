@@ -4,20 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acceso</title>
-    <script src="/js/auth.js" defer></script>
+    <script type="module" src="/js/user/acceso.js" defer></script>
 </head>
 <body>
     <h1>Acceso</h1>
     <p>Haz clic en el siguiente botón mágica y automáticamente iniciará sesión o te creará una cuenta nueva.</p>
     <button type="button" id="botonMagico">Botón Mágico</button>
-
-    <script>
-        // Si por chance hay una sesión iniciada, redirigir a cuenta
-        document.addEventListener("DOMContentLoaded", () => {
-        if (sesionIniciada()) {
-            window.location.href = "/html/user/cuenta.html";
-        }
-        });
-    </script>
 </body>
 </html>
