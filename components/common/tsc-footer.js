@@ -1,4 +1,4 @@
-class AppFooter extends HTMLElement {
+class TSCFooter extends HTMLElement {
 
     // Método llamado al añadir el elemento al DOM
     connectedCallback() {
@@ -12,4 +12,4 @@ class AppFooter extends HTMLElement {
     }
 }
 
-customElements.define("app-footer", AppFooter);
+customElements.define("tsc-footer", TSCFooter);

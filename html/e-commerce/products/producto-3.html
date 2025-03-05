@@ -66,15 +66,24 @@
     <link rel="stylesheet" href="" />
 
     <!-- Componentes -->
-    <script src="/components/common/AppHeader.js" defer></script>    
-    <script src="/components/common/AppFooter.js" defer></script>    
+    <script src="/components/common/tsc-header.js" defer></script>    
+    <script src="/components/common/tsc-footer.js" defer></script> 
+    <script src="/components/common/tsc-breadcrumbs.js" defer></script>   
 
     <!-- Scripts -->
      <script type="module" src="/js/common/header.js" defer></script>
 </head>
 <body>
     <header>
-        <app-header></app-header>
+        <tsc-header></tsc-header>
+        
+        <tsc-breadcrumbs>
+            <tsc-breadcrumb url="/index.html">Inicio</tsc-breadcrumb>
+            <tsc-breadcrumb url="/html/e-commerce/categories/clasica.html">Gama Clásica</tsc-breadcrumb>
+            <tsc-breadcrumb>Producto III</tsc-breadcrumb>
+        </tsc-breadcrumbs>
+
+
     </header>
     <main>
         <h1>Producto III</h1>
@@ -82,7 +91,8 @@
         <p>Precio: 5.95 €</p>
     </main>
     <footer>
-        <app-footer></app-footer>
+        <tsc-footer></tsc-footer>
     </footer>
 </body>
 </html>
+

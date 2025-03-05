@@ -1,4 +1,4 @@
-class AppHeader extends HTMLElement {
+class TSCHeader extends HTMLElement {
 
     // Método llamado al añadir el elemento al DOM
     connectedCallback() {
@@ -40,4 +40,4 @@ class AppHeader extends HTMLElement {
     }
 }
 
-customElements.define("app-header", AppHeader);
+customElements.define("tsc-header", TSCHeader);
