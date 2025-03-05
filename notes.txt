@@ -1,3 +1,0 @@
-Estoy utilizando <</html/e-commerce/products/${producto.sku}.html>> 
-    tanto en <<categories.js>>, como en <<generate-products.js>>. 
-    Gurdarlo en una variable global (config.js) o guardar la URL de cada producto en el inventario?
