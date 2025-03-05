@@ -1,6 +1,6 @@
 [
     {
-        "sku": "AABB001",
+        "sku": "producto-1",
         "nombre": "Producto I",
         "descripcion": "descripción del producto",
         "precio": 10.99,
@@ -14,11 +14,10 @@
         "colores": ["marron"],
         "categoria": "clasica",
         "peso": 1,
-        "fecha_actualizacion": "AAAA_MM_DD",
-        "url_producto": "/"
+        "fecha_actualizacion": "AAAA_MM_DD"
     },
     {
-        "sku": "AABB002",
+        "sku": "producto-2",
         "nombre": "Producto II",
         "descripcion": "descripción del producto",
         "precio": 7.99,
@@ -35,7 +34,7 @@
         "fecha_actualizacion": "AAAA_MM_DD"
     },
     {
-        "sku": "AABB003",
+        "sku": "producto-3",
         "nombre": "Producto III",
         "descripcion": "descripción del producto",
         "precio": 5.95,
@@ -52,7 +51,7 @@
         "fecha_actualizacion": "AAAA_MM_DD"
     },
     {
-        "sku": "AABB004",
+        "sku": "producto-4",
         "nombre": "Producto IV",
         "descripcion": "descripción del producto",
         "precio": 24.95,
@@ -69,7 +68,7 @@
         "fecha_actualizacion": "AAAA_MM_DD"
     },
     {
-        "sku": "AABB005",
+        "sku": "producto-5",
         "nombre": "Producto V",
         "descripcion": "descripción del producto",
         "precio": 2.99,
@@ -86,7 +85,7 @@
         "fecha_actualizacion": "AAAA_MM_DD"
     },
     {
-        "sku": "AABB006",
+        "sku": "producto-6",
         "nombre": "Producto VI",
         "descripcion": "descripción del producto",
         "precio": 10.00,
@@ -103,7 +102,7 @@
         "fecha_actualizacion": "AAAA_MM_DD"
     },
     {
-        "sku": "AABB007",
+        "sku": "producto-7",
         "nombre": "Producto VII",
         "descripcion": "descripción del producto",
         "precio": 7.99,
@@ -120,7 +119,7 @@
         "fecha_actualizacion": "AAAA_MM_DD"
     },
     {
-        "sku": "AABB008",
+        "sku": "producto-8",
         "nombre": "Producto VIII",
         "descripcion": "descripción del producto",
         "precio": 12.50,
@@ -137,7 +136,7 @@
         "fecha_actualizacion": "AAAA_MM_DD"
     },
     {
-        "sku": "AABB009",
+        "sku": "producto-9",
         "nombre": "Producto IX",
         "descripcion": "descripción del producto",
         "precio": 14.95,
@@ -154,7 +153,7 @@
         "fecha_actualizacion": "AAAA_MM_DD"
     },
     {
-        "sku": "AABB010",
+        "sku": "producto-10",
         "nombre": "Producto X",
         "descripcion": "descripción del producto",
         "precio": 22.99,

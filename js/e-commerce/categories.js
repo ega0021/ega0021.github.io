@@ -12,7 +12,7 @@ async function cargarInventario() {
         const respuesta = await fetch("/data/inventory.json");
         inventario = await respuesta.json();
 
-        // 👁️: Creo que podríia sacar esto de aquí ya que no es parte de cargar el inventario
+        // 👁️: Creo que podría sacar esto de aquí ya que no es parte de cargar el inventario
         inventarioFiltrado = inventario.filter(producto => producto.categoria === obtenerCategoriaDesdeURL());
         console.log(inventarioFiltrado);
         mostrarProductos(inventarioFiltrado, "recomendacion");
@@ -37,7 +37,7 @@ function mostrarProductos(productos, criterio) {
     productos.forEach(producto => {
         const divProducto = document.createElement("div");
         divProducto.innerHTML = /* html */`
-            <a href="#">
+            <a href="/html/e-commerce/products/${producto.sku}.html">
                 <img src="${producto.fotos.portada}" width="200">
                 <h2>${producto.nombre}</h2>
                 <p>${producto.precio.toFixed(2)} €</p>
