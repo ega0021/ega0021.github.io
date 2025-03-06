@@ -4,16 +4,6 @@ header {
     z-index: 100; /* Ensure header stays on top */
 }
 
-/* Promo Banner Styles */
-.promo-banner {
-    background-color: #002843;
-    color: white;
-    text-align: center;
-    padding: 0.5rem 1rem;
-    font-size: 0.9rem;
-    width: 100%;
-}
-
 /* Navbar Styles */
 .navbar {
     display: flex;
@@ -23,7 +13,8 @@ header {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
     min-height: 60px;
     width: 100%;
-    background-color: rgba(201, 55, 203, .1);
+    background-color: rgba(255, 255, 255, .25);
+    transition: background-color 0.5s ease; /* Add transition for smooth effect */
 }
 
 /* Logo Styles */
@@ -68,7 +59,8 @@ header {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: white;
+    background-color: rgba(255, 255, 255, .75);
+    backdrop-filter: blur(2rem); /* Add blur effect */
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;

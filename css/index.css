@@ -1,9 +1,20 @@
+/* Promo Banner Styles */
+.promo-banner {
+  background-color: #002843;
+  color: white;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  width: 100%;
+}
+
 /* Estilos para el Hero Video */
 .hero-video {
     position: relative;
     width: 100%;
     height: 100vh; /* Ocupa toda la altura del viewport */
     overflow: hidden;
+    margin-top: -6rem; /* Adjust based on header height */
   }
   
   .hero-video-bg {
@@ -51,7 +62,7 @@
     margin-bottom: 2rem;
   }
   
-  .hero-content .btn {
+  .hero-content a {
     background-color: #640018;
     color: white;
     padding: 0.8rem 1.5rem;
@@ -61,8 +72,8 @@
     transition: background-color 0.3s ease;
   }
   
-  .hero-content .btn:hover {
-    background-color: #b8a524;
+  .hero-content a:hover {
+    background-color: #ec488a;
   }
   
   /* Responsividad */
@@ -92,3 +103,11 @@
     }
   }
   
+  /************************************************/
+
+  .vertical-text {
+    white-space: pre; /* Preserve spaces and line breaks */
+    writing-mode: vertical-rl; /* Set the writing mode to vertical */
+    line-height: 1.5; /* Adjust line height for spacing */
+    font-size: 1.2rem; /* Adjust font size as needed */
+  }
