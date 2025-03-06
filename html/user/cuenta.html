@@ -64,6 +64,7 @@
 
     <!-- Hojas de estilo -->
     <link rel="stylesheet" href="/css/global.css" />
+    <link rel="stylesheet" href="/css/user/cuenta.css" />
 
     <!-- Componentes -->
     <script src="/components/common/tsc-header.js" defer></script>    
@@ -71,6 +72,7 @@
 
     <!-- Scripts -->
     <script type="module" src="/js/common/header.js" defer></script>
+    <script type="module" src="/js/user/cuenta.js" defer></script>
 </head>
 <body>
     <header>
@@ -78,7 +80,83 @@
     </header>
     
     <main>
-        <h1>Cuenta</h1>
+        <h1>Mi Cuenta</h1>
+        <!-- Información Personal -->
+        <section id="infoPersonal">
+            <form id="formInfoPersonal">
+                <div>
+                    <label for="foto" class="sr-only">Foto de perfil</label>
+                    <img id="foto" src="" alt="Foto de perfil">
+                </div>
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" readonly>
+                </div>
+                <div class="botones">
+                    <button type="button" id="editarInfoPersonal">Editar</button>
+                </div>
+            </form>
+        </section>
+
+        <!-- Direcció de Envío -->
+        <section id="direccionEnvio">
+            <h2>Dirección de Envío</h2>
+            <form id="formDireccionEnvio">
+                <div>
+                    <label for="nombreCalle">Nombre de la Calle</label>
+                    <input type="text" id="nombreCalle" name="nombreCalle" readonly>
+                </div>
+                <div>
+                    <label for="ciudad">Ciudad</label>
+                    <input type="text" id="ciudad" name="ciudad" readonly>
+                </div>
+                <div>
+                    <label for="codigoPostal">Código Postal</label>
+                    <input type="text" id="codigoPostal" name="codigoPostal" readonly>
+                </div>
+                <div>
+                    <label for="pais">País</label>
+                    <input type="text" id="pais" name="pais" readonly>
+                </div>
+                <div class="botones">
+                    <button type="button" id="editarDireccionEnvio">Editar</button>
+                </div>
+            </form>
+        </section>
+
+        <!-- Método de Pago -->
+        <section id="metodoPago">
+            <h2>Método de Pago</h2>
+            <form id="formMetodoPago">
+                <div>
+                    <label for="nombreTitular">Nombre del Titular</label>
+                    <input type="text" id="nombreTitular" name="nombreTitular" readonly>
+                </div>
+                <div>
+                    <label for="fechaCaducidad">Fecha Caducidad</label>
+                    <input type="text" id="fechaCaducidad" name="fechaCaducidad" readonly>
+                </div>
+                <div>
+                    <label for="numeroTarjeta">Número de Tarjeta</label>
+                    <input type="text" id="numeroTarjeta" name="numeroTarjeta" readonly>
+                </div>
+                <div>
+                    <label for="cvv">CVV</label>
+                    <input type="text" id="cvv" name="cvv" readonly>
+                </div>
+                <div class="botones">
+                    <button type="button" id="editarMetodoPago">Editar</button>
+                </div>
+            </form>
+        </section>
+
+        <!-- Acciones -->
+        <section id="accionesUsuario">
+            <div class="botones">
+                <button type="button" id="cerrarSesion">Cerrar Sesión</button>
+                <button type="button" id="eliminarUsuario">Eliminar Cuenta</button>
+            </div>
+        </section>
     </main>
     
     <footer>

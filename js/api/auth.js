@@ -41,3 +41,7 @@ export function iniciarSesion(usuario) {
 export function sesionIniciada() {
     return sessionStorage.getItem("usuario") !== null;
 }
+
+export function cerrarSesion() {
+    sessionStorage.removeItem("usuario");
+}
