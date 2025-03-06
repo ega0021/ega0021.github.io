@@ -1,0 +1,58 @@
+/* Contenedor de productos con un poco más de espacio y un grid adaptable */
+#productos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+    padding: 24px;
+}
+
+/* Cada producto con fondo blanco, bordes sutiles, bordes redondeados y sombra */
+.producto {
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto hover para dar sensación de profundidad al mover el ratón */
+.producto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Imagen adaptativa y con esquinas ligeramente redondeadas */
+.producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Encabezado con mayor tamaño y color resaltado */
+.producto h2 {
+    font-size: 1.4em;
+    margin: 12px 0;
+    color: #222;
+}
+
+/* Precio con tipografía legible y un color intermedio */
+.producto p {
+    font-size: 1.05em;
+    color: #555;
+    margin: 8px 0;
+}
+
+/* Media queries para adaptar la grilla en pantallas mayores */
+@media (min-width: 600px) {
+    #productos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    #productos {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

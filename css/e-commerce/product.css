@@ -1,0 +1,70 @@
+
+  
+  /* Contenedor principal centrado y con tipografía legible */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  /* Tarjeta del producto */
+  .producto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Título principal del producto */
+  .producto h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #222;
+  }
+  
+  /* Figura con la imagen del producto y leyenda */
+  .producto figure {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .producto figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .producto figure figcaption {
+    margin-top: 8px;
+    font-size: 0.9em;
+    color: #777;
+  }
+  
+  /* Secciones para descripción y precio */
+  .producto section {
+    margin-top: 20px;
+  }
+  
+  .producto section h2 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    color: #444;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  .producto section p {
+    font-size: 1em;
+    line-height: 1.6;
+  }
+  
+  /* Precio destacado */
+  .producto section:last-of-type p strong {
+    font-size: 1.5em;
+    color: #ec488a; /* Color vibrante para llamar la atención sobre el precio */
+  }
+  

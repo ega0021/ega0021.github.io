@@ -15,10 +15,10 @@
 
     <!-- URL canónica y enlaces alternativos -->
     <link rel="canonical" href="/" />
-    <link rel="alternate" href="/html/e-commerce/products/producto-4" />
+    <link rel="alternate" href="/html/e-commerce/products/producto-4.html" />
     
     <!-- Open Graph -->
-    <meta property="og:title" content="Producto IV | TSC" />
+    <meta property="og:title" content="The Sisterhood Clip® - Página Oficial" />
     <meta property="og:description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum in facilis cum iure enim iusto ullam voluptate blanditiis et quae mollitia, sed facere cupiditate. Quaerat praesentium iure dolores illum laudantium." />
     <meta property="og:image" content="/assets/meta/opengraph/opengraph.png" />
     <meta property="og:image:secure_url" content="/assets/meta/opengraph/opengraph.png" />
@@ -27,12 +27,12 @@
     <meta property="og:image:height" content="627" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="The Sisterhood Clip" />
-    <meta property="og:url" content="/html/e-commerce/products/producto-4" />
+    <meta property="og:url" content="/index.html" />
     <meta property="og:locale" content="es_ES" />
 
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Producto IV | TSC" />
+    <meta name="twitter:title" content="The Sisterhood Clip® - Página Oficial" />
     <meta name="twitter:description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum in facilis cum iure enim iusto ullam voluptate blanditiis et quae mollitia, sed facere cupiditate. Quaerat praesentium iure dolores illum laudantium." />
     <meta name="twitter:image" content="/assets/meta/opengraph/opengraph.png" />
     <meta name="twitter:site" content="@sisterhoodclip" />
@@ -52,7 +52,7 @@
     <meta name="msapplication-TileColor" content="#f0e7db" />
     <meta name="msapplication-TileImage" content="/assets/meta/favicon/mstile-150x150.png" />
 
-    <meta name="theme-color" content="#f0e7db" />
+    <meta name="theme-color" content="#640018" />
     <link rel="manifest" href="/assets/meta/favicon/site.webmanifest" />
 
     <!-- Datos estructurados (JSON-LD) -->
@@ -63,24 +63,41 @@
     </script>
 
     <!-- Hojas de estilo -->
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="/css/global.css" />
+    <link rel="stylesheet" href="/css/e-commerce/product.css" />
 
     <!-- Componentes -->
     <script src="/components/common/tsc-header.js" defer></script>    
     <script src="/components/common/tsc-footer.js" defer></script>    
 
     <!-- Scripts -->
-     <script type="module" src="/js/common/header.js" defer></script>
+    <script type="module" src="/js/common/header.js" defer></script>
 </head>
 <body>
     <header>
         <tsc-header></tsc-header>
     </header>
+    
     <main>
-        <h1>Producto IV</h1>
-        <img src="https://placehold.co/800x800/f0e7db/f4c0d2?text=TSC" alt="Foto del producto">
-        <p>Precio: 24.95 €</p>
+        <article class="producto">
+            <h1>Producto IV</h1>
+            <figure>
+                <img src="https://placehold.co/800x800/f0e7db/f4c0d2?text=TSC" alt="Imagen de Producto IV">
+                <figcaption>Producto IV</figcaption>
+            </figure>
+            <section>
+                <h2>Descripción</h2>
+                <p>descripción del producto</p>
+            </section>
+            <section>
+                <h2>Precio</h2>
+                <p>
+                    <strong>24.95 €</strong>
+                </p>
+            </section>
+        </article>
     </main>
+    
     <footer>
         <tsc-footer></tsc-footer>
     </footer>

@@ -38,7 +38,7 @@ class TSCHeader extends HTMLElement {
                     </a>
             
                     <!-- Enlace al carrito -->
-                    <a href="#" class="cart">
+                    <a id="botonCarrito" href="#" class="cart">
                         <span class="cart-icon"><img src="/assets/icons/header/carrito.svg" alt="Icono del carrito"></span>
                     </a>
                 </div>
@@ -50,13 +50,11 @@ class TSCHeader extends HTMLElement {
                     </button>
                     <nav>
                         <ul>
-                            <li><a href="#">Top Ventas</a></li>
-                            <li><a href="#">Gama Clásica</a></li>
-                            <li><a href="#">Gama Color Pulse</a></li>
-                            <li><a href="#">Gama Exlucisve</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Nosotros</a></li>
-                            <li><a href="#">Contacto</a></li>
+                            <li><a href="/html/e-commerce/categories/clasica.html">Gama Clásica</a></li>
+                            <li><a href="/html/e-commerce/categories/colorpulse.html">Gama Color Pulse</a></li>
+                            <li><a href="/html/e-commerce/categories/exclusive.html">Gama Exlucisve</a></li>
+                            <li><a href="/html/about/nosotros.html">Nosotros</a></li>
+                            <li><a href="mailto:hola@thesisterhoodclip.com">Contacto</a></li>
                         </ul>
                     </nav>
                 </div>

@@ -7,15 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- Metadatos básicos de SEO -->
-    <title>The Sisterhood Clip® - Página Oficial</title>
+    <title>Gama Clásica | TSC</title>
     <meta name="description" content="Lorem ipsum" />
     <meta name="keywords" content="keyword1, keyword2, keyword 3" />
     <meta name="author" content="The Sisterhood Clip S.L." />
     <meta name="robots" content="index, follow" />
 
     <!-- URL canónica y enlaces alternativos -->
-    <link rel="canonical" href="/" />
-    <link rel="alternate" href="/index.html" />
+    <link rel="canonical" href="/clasico" />
+    <link rel="alternate" href="/html/e-commerce/categories/clasica.html" />
     
     <!-- Open Graph -->
     <meta property="og:title" content="The Sisterhood Clip® - Página Oficial" />
@@ -52,7 +52,7 @@
     <meta name="msapplication-TileColor" content="#f0e7db" />
     <meta name="msapplication-TileImage" content="/assets/meta/favicon/mstile-150x150.png" />
 
-    <meta name="theme-color" content="#f0e7db" />
+    <meta name="theme-color" content="#640018" />
     <link rel="manifest" href="/assets/meta/favicon/site.webmanifest" />
 
     <!-- Datos estructurados (JSON-LD) -->
@@ -63,24 +63,27 @@
     </script>
 
     <!-- Hojas de estilo -->
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="/css/global.css" />
+    <link rel="stylesheet" href="/css/e-commerce/categories.css" />
 
     <!-- Componentes -->
     <script src="/components/common/tsc-header.js" defer></script>    
     <script src="/components/common/tsc-footer.js" defer></script>    
 
     <!-- Scripts -->
-     <script type="module" src="/js/common/header.js" defer></script>
-     <script src="/js/e-commerce/categories.js" defer></script>
+    <script type="module" src="/js/common/header.js" defer></script>
+    <script src="/js/e-commerce/categories.js" defer></script>
 </head>
 <body>
     <header>
         <tsc-header></tsc-header>
     </header>
+    
     <main>
         <h1>Gama Clásica</h1>
         <div id="productos"></div>
     </main>
+    
     <footer>
         <tsc-footer></tsc-footer>
     </footer>

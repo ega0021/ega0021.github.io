@@ -14,11 +14,11 @@ class TSCFooter extends HTMLElement {
                 <h4>Empresa</h4>
                 <nav>
                     <ul>
-                        <li><a href="#">Sobre nosotros</a></li>
-                        <li><a href="#">Preguntas frecuentes</a></li>
+                        <li><a href="/html/about/nosotros.html">Sobre nosotros</a></li>
+                        <li><a href="/html/about/nosotros.html">Preguntas frecuentes</a></li>
                         <li>
                             <a href="mailto:hola@thesisterhoodclip.com">hola@thesisterhoodclip.com</a><br>
-                            <small>¡Funciona de verdad!</small>
+                            <small>¡Yep, de verdad funciona!</small>
                         </li>
                     </ul>
                 </nav>
@@ -27,19 +27,18 @@ class TSCFooter extends HTMLElement {
                 <h4>Nuestros Productos</h4>
                 <nav>
                     <ul>
-                        <li><a href="#">Top ventas</a></li>
-                        <li><a href="#">Gama Clásica</a></li>
-                        <li><a href="#">Gama Color Pulse</a></li>
-                        <li><a href="#">Gama Exclusive</a></li>
+                        <li><a href="/html/e-commerce/categories/clasica.html">Gama Clásica</a></li>
+                        <li><a href="/html/e-commerce/categories/colorpulse.html">Gama Color Pulse</a></li>
+                        <li><a href="/html/e-commerce/categories/exclusive.html">Gama Exclusive</a></li>
                     </ul>
                 </nav>
             </article>
             <article class="footer-section">
                 <h4>Síguenos en...</h4>
                 <ul>
-                    <li><a href="#"><img src="/assets/icons/footer/instagram-white.svg" alt="Icono de Instagram"></a></li>
-                    <li><a href="#"><img src="/assets/icons/footer/tiktok-white.svg" alt="Icono de TikTok"></a></li>
-                    <li><a href="#"><img src="/assets/icons/footer/x-white.svg" alt="Icono de X"></a></li>
+                    <li><a href="https://www.instagram.com/thesisterhoodclip"><img src="/assets/icons/footer/instagram-white.svg" alt="Icono de Instagram"></a></li>
+                    <li><a href="https://x.com/sisterhoodclip"><img src="/assets/icons/footer/tiktok-white.svg" alt="Icono de TikTok"></a></li>
+                    <li><a href="https://x.com/sisterhoodclip"><img src="/assets/icons/footer/x-white.svg" alt="Icono de X"></a></li>
                 </ul>
             </article>
         </section>

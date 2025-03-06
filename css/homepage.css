@@ -10,6 +10,10 @@
 
 
 /* 2️⃣ Hero video */
+main {
+  padding: 0;
+}
+
 .navbar {
   /* Sobreescribir <<global.css>>. Funciona mientras <<homepage.css>> se importa después */
   background-color: rgba(255, 255, 255, 0.25); 
@@ -99,6 +103,8 @@
   @media (max-width: 480px) {
     .hero-content h1 {
       font-size: 1.5rem;
+      line-height: 1.2; /* Adjust line height to keep text on one line */
+      white-space: nowrap; /* Prevent text from wrapping */
     }
     .hero-content p {
       font-size: 0.9rem;

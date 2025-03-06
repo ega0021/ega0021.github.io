@@ -28,9 +28,10 @@ function generarPaginaProducto(producto) {
     let paginaProducto = plantilla
         .replace(/{{titulo}}/g, `${producto.nombre} | TSC`)
         .replace(/{{url}}/g, `/html/e-commerce/products/${producto.sku}.html`)
-        .replace(/{{h1-nombre-producto}}/g, producto.nombre)
+        .replace(/{{nombre-producto}}/g, producto.nombre)
         .replace(/{{foto-producto}}/g, producto.fotos.portada)
-        .replace(/{{precio}}/g, `${producto.precio.toFixed(2)} €`);
+        .replace(/{{precio}}/g, `${producto.precio.toFixed(2)} €`)
+        .replace(/{{descripcion}}/g, producto.descripcion);
     
     const rutaDestino = directorioRaiz + "/out/products/";
     const nombreFicheroProducto = `${producto.sku}.html`;

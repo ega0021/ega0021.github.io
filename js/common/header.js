@@ -6,8 +6,9 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("botonHamburguesa").addEventListener("click", abrirMenu);
     document.getElementById("botonCerrar").addEventListener("click", cerrarMenu);
 
-    // Gestionar búsqueda
+    // Gestionar búsqueda y carrito
     document.getElementById("botonBusqueda").addEventListener("click", () => alert("Bajo Construcción 🏗️"));
+    document.getElementById("botonCarrito").addEventListener("click", () => alert("Bajo Construcción 🏗️"));
 
     // Redireccionar al hacer clic en el icono de usuario
     document.getElementById("botonUsuario").addEventListener("click", (e) => redireccionarUsuario(e));

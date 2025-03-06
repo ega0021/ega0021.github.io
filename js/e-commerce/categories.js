@@ -36,12 +36,13 @@ function mostrarProductos(productos, criterio) {
     // renderizar productos en la página
     productos.forEach(producto => {
         const divProducto = document.createElement("div");
+        divProducto.classList.add("producto");
+        
         divProducto.innerHTML = /* html */`
             <a href="/html/e-commerce/products/${producto.sku}.html">
                 <img src="${producto.fotos.portada}" width="200">
                 <h2>${producto.nombre}</h2>
                 <p>${producto.precio.toFixed(2)} €</p>
-                <p>${producto.categoria}</p>
             </a>
         `;
         contenedor.appendChild(divProducto);
