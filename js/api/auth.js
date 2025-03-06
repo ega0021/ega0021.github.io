@@ -2,8 +2,18 @@ export function crearUsuario() {
     const usuario = {
         nombre: "",
         foto: "",
-        metodoPago: "",
-        direccionEnvio: "",
+        metodoPago: {
+            nombreTitular: "",
+            fechaCaducidad: "",
+            numeroTarjeta: "",
+            cvv: "",
+        },
+        direccionEnvio: {
+            nombreCalle: "",
+            ciudad: "",
+            codigoPostal: "",
+            pais: ""
+        },
         pedidos: [],
         carrito: []
     };

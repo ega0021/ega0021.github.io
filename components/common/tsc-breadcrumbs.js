@@ -2,6 +2,7 @@ class TSCBreadcrumbs extends HTMLElement {
     constructor() {
         super();
     }
+    
     // Método llamado al añadir el elemento al DOM
     connectedCallback() {
         this.render();

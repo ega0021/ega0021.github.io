@@ -1,6 +1,6 @@
-/* Promo Banner Styles */
+/* 1️⃣ Banner promocional */
 .promo-banner {
-  background-color: #002843;
+  background-color: #640018;
   color: white;
   text-align: center;
   padding: 0.5rem 1rem;
@@ -8,13 +8,19 @@
   width: 100%;
 }
 
-/* Estilos para el Hero Video */
+
+/* 2️⃣ Hero video */
+.navbar {
+  /* Sobreescribir <<global.css>>. Funciona mientras <<homepage.css>> se importa después */
+  background-color: rgba(255, 255, 255, 0.25); 
+}
+
 .hero-video {
     position: relative;
     width: 100%;
     height: 100vh; /* Ocupa toda la altura del viewport */
     overflow: hidden;
-    margin-top: -6rem; /* Adjust based on header height */
+    margin-top: -6rem; /* ⚙️ Ajustar basado en tamaño del navbar*/
   }
   
   .hero-video-bg {
@@ -103,11 +109,10 @@
     }
   }
   
-  /************************************************/
-
+  /* Lorem ipsum */
   .vertical-text {
-    white-space: pre; /* Preserve spaces and line breaks */
-    writing-mode: vertical-rl; /* Set the writing mode to vertical */
-    line-height: 1.5; /* Adjust line height for spacing */
-    font-size: 1.2rem; /* Adjust font size as needed */
+    white-space: pre; 
+    writing-mode: vertical-rl;
+    line-height: 1.5; 
+    font-size: 1.2rem;
   }

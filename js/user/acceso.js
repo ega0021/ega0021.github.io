@@ -6,16 +6,16 @@ import {
     crearUsuario 
 } from "/js/api/auth.js";
 
-// Si por chance hay una sesión iniciada, redirigir a cuenta
 document.addEventListener("DOMContentLoaded", () => {
+    // Si por chance se accede a la página y hay una sesión iniciada, redirigir a cuenta
     if (sesionIniciada()) {
         window.location.href = "/html/user/cuenta.html";
     }
+
+    document.getElementById("botonMagico").addEventListener("click", gestionarBotonMagico)
 });
 
-const botonMagico = document.getElementById("botonMagico");
-botonMagico.addEventListener("click", () => {
-
+function gestionarBotonMagico() {
     let existiaUsuario = true;
     
     if (!existeUsuario()) {
@@ -26,18 +26,23 @@ botonMagico.addEventListener("click", () => {
     const usuario = cargarUsuario();
     iniciarSesion(usuario);
 
-    // Se podría utilizar una variable de control "existiaUsuario" y en base a su valor cargar aquí un componente u otro.
-    if (existiaUsuario) {
-        alert(`
-            ¡Sesión Iniciada!
-            Serás redirigido a la página de perfil.
-        `);
-    } else {
-        alert(`
-            ¡Cuenta Creada!
-            Serás redirigido a la página de perfil.
-        `);
-    }
+    if (existiaUsuario) renderizarSesionIniciada(); 
+    else renderizarCuentaCreada();
 
     window.location.href = "/html/user/cuenta.html";
-});
+};
+
+// 👁️: Pendiente de mejora
+function renderizarSesionIniciada() {
+    alert(`
+        ¡Sesión Iniciada!
+        Serás redirigido a tu página de usuario.
+    `);
+}
+
+function renderizarCuentaCreada() {
+    alert(`
+        ¡Cuenta Creada!
+        Serás redirigido a tu página de usuario.
+    `);
+}

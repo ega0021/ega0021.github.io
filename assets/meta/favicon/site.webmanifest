@@ -1,11 +1,11 @@
 {
   "name": "The Sisterhood Clip",
   "short_name": "TSC",
-  "description": "📎",
+  "description": "#",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#f0e7db",
+  "theme_color": "#640018",
   "icons": [
     {
       "src": "/assets/meta/favicon/favicon-192x192.png",
