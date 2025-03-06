@@ -1,0 +1,37 @@
+/* general.css */
+:root {
+  --color-primary: #640018;
+  --color-secondary: #f2c2d3;
+  --color-accent: #ec488a;
+  --color-background: #eee7da;
+  --color-gold: #b8a524;
+}
+
+/* Reset básico y estilos globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+/*
+body {
+  font-family: 'Arial', sans-serif;
+  color: #640018; 
+  background-color: #eee7da;
+  line-height: 1.6;
+} 
+*/
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
