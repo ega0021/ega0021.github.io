@@ -13,12 +13,12 @@ class TSCHeader extends HTMLElement {
                 <!-- Sección izquierda-->
                 <div class="nav-left">
                     <!-- Menú hamburguesa  -->
-                    <button id="botonHamburguesa" class="hamburger" aria-label="Abrir menú de navegación" aria-controls="menu" aria-expanded="false">
+                    <button id="botonHamburguesa" class="boton-hamburguesa" aria-label="Abrir menú de navegación" aria-controls="menu" aria-expanded="false">
                         <span class="hamburger-icon"><img src="/assets/icons/header/hamburguesa.svg" alt="Icono del menú de navegación"></span>
                     </button>
 
                     <!-- Búsqueda -->
-                    <button id="botonBusqueda" class="search-toggle" aria-label="Abrir búsqueda">
+                    <button id="botonBusqueda" class="boton-busqueda" aria-label="Abrir búsqueda">
                         <span class="search-icon"><img src="/assets/icons/header/lupa.svg" alt="Icono de búsqueda"></span>
                     </button>
                 </div>
@@ -26,7 +26,7 @@ class TSCHeader extends HTMLElement {
                 <!-- Sección central: Logo -->
                 <div class="nav-center">
                     <a href="/index.html">
-                        <img id="logo" src="/assets/images/common/header/logo.svg" alt="Logo de The Sisterhood Clip">
+                        <img id="logo" src="/assets/icons/header/logo.svg" alt="Logo de The Sisterhood Clip">
                     </a>
                 </div>
     
@@ -50,9 +50,9 @@ class TSCHeader extends HTMLElement {
                     </button>
                     <nav>
                         <ul>
-                            <li><a href="/html/e-commerce/categories/clasica.html">Gama Clásica</a></li>
-                            <li><a href="/html/e-commerce/categories/colorpulse.html">Gama Color Pulse</a></li>
-                            <li><a href="/html/e-commerce/categories/exclusive.html">Gama Exlucisve</a></li>
+                            <li><a href="/html/e-commerce/categories/clasica.html">Clásica</a></li>
+                            <li><a href="/html/e-commerce/categories/colorpulse.html">Color Pulse</a></li>
+                            <li><a href="/html/e-commerce/categories/exclusive.html">Exlucisve</a></li>
                             <li><a href="/html/about/nosotros.html">Nosotros</a></li>
                             <li><a href="mailto:hola@thesisterhoodclip.com">Contacto</a></li>
                         </ul>
