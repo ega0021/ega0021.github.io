@@ -10,23 +10,23 @@ class TSCFooter extends HTMLElement {
     render() {
         this.innerHTML = /* html */ `
         <section class="footer-content">
-            <address class="footer-section izquierda">
+            <article class="footer-section izquierda">
                 <div>
                     <img src="/assets/icons/footer/ubicacion.svg" alt="Icono de dirección" />
                     <p>
-                        Paseo de Morella 66 <br>
-                        12004, Castellón de la plana
+                        Paseo de Morella, 66 <br>
+                        12004 Castellón de la plana
                     </p>
                 </div>
                 <div>
                     <img src="/assets/icons/footer/telefono.svg" alt="Icono de teléfono" />
-                    <p>613 018 099</p>
+                    <p>+34 613 018 099</p>
                 </div>
                 <div>
                     <img src="/assets/icons/footer/correo.svg" alt="Icono de correo" />
                     <p>hola@thesisterhoodclip.com</p>
                 </div>
-            </address>
+            </article>
 
             <article class="footer-section centro">
                 <h4>Nuestro Catálogo</h4>

@@ -29,6 +29,10 @@ body {
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Yeseva One", Arial, Helvetica, sans-serif;
+}
+
 main {
   min-height: 100vh;
 }
@@ -53,261 +57,254 @@ button {
   background-color: var(--color-bordo);
   color: white;
   padding: 0.8rem 1.5rem;
-  text-decoration: none;
   font-size: 1rem;
   border-radius: 2rem;
   transition: background-color 0.3s ease;
-  display: inline-block; /* Ensure it behaves like a block-level element */
-  position: relative; /* Ensure it stays within the document hierarchy */
+  display: inline-block;
+  position: relative;
 }
 
 /* 5️⃣ Header */
 header {
-    position: sticky;
-    top: 0;
-    z-index: 100; 
-  }
-  
-  .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem 2rem;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-    min-height: 80px;
-    width: 100%;
-    background-color: var(--color-rosa-energetico);
-  }
-  
-  /* Logo */
-  .nav-center {
-    width: 100%; /* Ajusta según sea necesario */
-    max-width: 300px; /* Ajusta el máximo ancho */
-    margin: 0 auto; /* Centra el contenedor */
-    text-align: center; /* Centra el logo dentro del contenedor */
-    padding: 10px; 
-  }
-  
-  #logo {
-    height: 100%;
-    width: auto;
-  }
-  
-  /* Iconos */
-  .navbar img {
-    width: 24px;
-    height: 24px;
-    vertical-align: middle;
-  }
-  
-  /* Seciones de navegación: izquierda y derecha */
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  min-height: 80px;
+  width: 100%;
+  background-color: var(--color-rosa-energetico);
+}
+
+/* Logo */
+.nav-center {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+}
+
+#logo {
+  height: 100%;
+  width: auto;
+}
+
+/* Iconos */
+.navbar img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+/* Seciones de navegación: izquierda y derecha */
+.nav-left,
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 0 4rem;
+}
+
+.nav-left {
+  justify-content: flex-start;
+}
+
+.nav-right {
+  justify-content: flex-end;
+}
+
+/* Menú lateral */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, .75);
+  backdrop-filter: blur(2rem);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  font-size: 1.5rem;
+  color: var(--color-bordo);
+  display: block;
+  transition: 0.3s;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.sidenav a:hover {
+  color: var(--color-rosa-energetico);
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media (max-width: 768px) {
   .nav-left,
   .nav-right {
-    display: flex;
-    align-items: center;
+    margin: 0;
     gap: 1.5rem;
-    margin: 0 4rem;
   }
-  
-  .nav-left {
-    justify-content: flex-start;
+  .nav-center {
+    max-width: 200px;
   }
-  
-  .nav-right {
-    justify-content: flex-end;
+  #logo {
+    width: 80%;
   }
-  
-  /* Menú lateral */
+}
+
+@media screen and (max-height: 450px) {
   .sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgba(255, 255, 255, .75);
-    backdrop-filter: blur(2rem);
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-    text-align: center;
+    padding-top: 15px;
   }
-  
   .sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #640018;
-    display: block;
-    transition: 0.3s;
-    white-space: nowrap;
-    overflow: hidden;
+    font-size: 18px;
   }
-  
-  .sidenav a:hover {
-    color: #ec488a;
-  }
-  
-  .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }
-  
-  @media (max-width: 768px) {
-    .nav-left,
-    .nav-right {
-        margin: 0 0rem;
-        gap: 1.5rem;
-    }
-    .nav-center {
-        max-width: 200px;
-    }
-    
-    #logo {
-        width: 80%;
-    }
-  }
-  
-  @media screen and (max-height: 450px) {
-    .sidenav {
-        padding-top: 15px;
-    }
-  
-    .sidenav a {
-        font-size: 18px;
-    }
-  }
+}
 
 /* 6️⃣ Footer */
 footer {
   background-color: var(--color-rosa-energetico);
   color: var(--color-beige-claro);
-  padding: 2rem;
-  font-family: sans-serif;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 2rem;
 }
 
+/* Footer Content: Distribución en tres columnas */
 .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 1rem;
+  gap: 5rem;
+  width: 100%;
   flex-wrap: wrap;
-  margin-bottom: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 
 .footer-section {
   flex: 1;
-  padding: 1rem;
+  min-width: 250px;
+  text-align: left;
 }
 
-.footer-section.izquierda p {
+.footer-section h4 {
+    font-size: 1.15rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer-section p,
+.footer-section li,
+.footer-section a {
+  font-size: 1rem;
+  line-height: 1.5; /* mejor lectura */
+}
+
+/* Sección izquierda: iconos de 20px a la izquierda del texto */
+.izquierda div {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  flex-wrap: wrap;
   margin-bottom: 1rem;
 }
 
-.footer-section.izquierda img {
+.izquierda div img {
   width: 20px;
   height: 20px;
-  flex-shrink: 0;
-  align-self: flex-start;
+  margin-right: 10px;
 }
 
-.footer-section.centro h4 {
-  margin-bottom: 0.5rem;
+/* Sección centro: texto centrado */
+.centro {
+  text-align: center;
 }
 
-.footer-section.derecha .derecha-arriba ul,
-.footer-section.derecha .derecha-abajo ul {
+.derecha {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Sección derecha: redes sociales en una sola fila debajo del título */
+.derecha .redes-sociales {
+  display: flex;
+  align-items: center;
   list-style: none;
   padding: 0;
-  margin: 0;
+  gap: 10px;
+  margin-top: 5px;
 }
 
-.redes-sociales {
-  display: flex;
-  gap: 0.5rem;
-  justify-content: center;
-}
-
-.redes-sociales li img {
+.derecha .redes-sociales li a img {
   width: 24px;
   height: 24px;
 }
 
+/* Footer Bottom: todo centrado */
 .footer-bottom {
   text-align: center;
-  border-top: 1px solid rgba(245, 241, 230, 0.3);
-  padding-top: 1.5rem;
+  margin-top: 20px;
 }
 
+/* Logo grande (300px de ancho, se adapta en móviles) */
 .footer-bottom img {
-  max-width: 150px;
-  width: 100%;
-  height: auto;
-  margin-bottom: 1rem;
+  width: 300px;
+  max-width: 100%;
+  margin-bottom: 10px;
 }
 
+/* Enlaces legales en una fila separados por "|" */
 .footer-bottom nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   list-style: none;
   padding: 0;
-  margin: 0 auto;
-  display: inline-flex;
-  align-items: center;
-}
-
-.footer-bottom nav ul li {
-  margin: 0 0.5rem;
-  position: relative;
+  margin: 10px 0;
+  flex-wrap: wrap;
 }
 
 .footer-bottom nav ul li:not(:last-child)::after {
-  content: "|";
-  margin-left: 0.5rem;
-  color: var(--color-beige-claro);
+  content: " | ";
+  margin: 0 10px;
 }
 
-.footer-bottom p {
-  margin-top: 1rem;
-  font-size: 0.9rem;
-}
-
+/* Responsividad: En móvil, el footer-content se organiza en una sola columna */
 @media (max-width: 768px) {
   .footer-content {
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
   }
-
   .footer-section {
-    width: 100%;
-    text-align: center;
-    padding: 0.5rem 0;
+    margin-bottom: 20px;
   }
-
-  .footer-bottom nav ul {
-    display: flex;
-    flex-wrap: wrap;
+  .derecha {
+    align-items: center;
+  }
+  .derecha .redes-sociales {
     justify-content: center;
-    gap: 0.5rem;
-    font-size: 0.8rem;
-  }
-
-  .footer-bottom nav ul li {
-    list-style: none;
-    display: inline;
-  }
-
-  .footer-bottom nav ul li:not(:last-child)::after {
-    content: " | ";
-    margin-left: 0.5rem;
-  }
-
-  .footer-bottom nav ul li {
-    margin: 0.5rem 0;
   }
 }
