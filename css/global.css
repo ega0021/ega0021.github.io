@@ -25,6 +25,10 @@
   box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
@@ -63,6 +67,24 @@ button {
   display: inline-block;
   position: relative;
 }
+
+/* Botón CTA */
+.boton-cta {
+    display: inline-block;
+    background-color: #670b1b; /* bordó */
+    color: #fff;
+    text-decoration: none;
+    padding: 0.8rem 1.6rem;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Efecto hover */
+  .boton-cta:hover {
+    background-color: #4b0713;
+    transform: translateY(-2px);
+  }
 
 /* 5️⃣ Header */
 header {

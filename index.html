@@ -63,25 +63,24 @@
             <div class="hero-content">
                 <h1>Bienvenid@ a <br> The Sisterhood Clip</h1>
                 <p>Tu esencia está en los detalles</p>
-                <a class="boton" href="/html/about/nosotros.html">Descubre tu nuevo favorito</a>
+                <a class="boton-cta" href="#catalogoGamas">Descubre tu nuevo favorito</a>
             </div>
         </section>
-        
         <!-- Catálogo de Gamas -->
          <section id="catalogoGamas">
             <h2 id="encabezadoGamas">Nuestras Gamas de Productos</h2>
             <div class="tarjetas-container">
-                <a href="#seccion1" class="tarjeta">
+                <a href="/html/e-commerce/categories/clasica.html" class="tarjeta">
                     <img src="/assets/images/homepage/imagen1.png" alt="Imagen 1">
                     <div class="filtro"></div>
                     <div class="texto">Clásica</div>
                 </a>
-                <a href="#seccion1" class="tarjeta">
+                <a href="/html/e-commerce/categories/colorpulse.html" class="tarjeta">
                     <img src="/assets/images/homepage/imagen2.png" alt="Imagen 1">
                     <div class="filtro"></div>
                     <div class="texto">Color Pulse</div>
                 </a>
-                <a href="#seccion1" class="tarjeta">
+                <a href="/html/e-commerce/categories/exclusive.html" class="tarjeta">
                     <img src="/assets/images/homepage/imagen3.png" alt="Imagen 1">
                     <div class="filtro"></div>
                     <div class="texto">Exclusive</div>
@@ -91,18 +90,45 @@
 
          <!-- Sobre Nosotros -->
         <section id="sobreNosotros">
-            <h2 id="encabezadoSobreNosotros">Sobre la Marca</h2>
-            <p>
-                Hecho para ti, pensado en cada detalle.<br>
-                <b>En The Sisterhood Clip no solo diseñamos accesorios para el cabello, creamos piezas que cuentan tu historia.</b> Cada clip, diadema y broche está pensado para que te expreses a través de los detalles. En un mundo donde la moda se repite y las tendencias son fugaces, apostamos por la autenticidad: accesorios con identidad, diseñados para destacar sin esfuerzo.<br>
-                Materiales de calidad, acabados impecables y un diseño que fusiona lo clásico con lo inesperado. No sigas la corriente. <b>Redefine tu estilo con piezas que hablan por ti.</b>
-            </p>
-            <a href="#" class="boton-cta">Saber más</a>
+            <div class="contenido">
+                <h2 id="encabezadoSobreNosotros">Sobre la Marca</h2>
+                <p>
+                    Hecho para ti, pensado en cada detalle.<br>
+                    <b>En The Sisterhood Clip no solo diseñamos accesorios para el cabello, creamos piezas que cuentan tu historia.</b> Cada clip, diadema y broche está pensado para que te expreses a través de los detalles. En un mundo donde la moda se repite y las tendencias son fugaces, apostamos por la autenticidad: accesorios con identidad, diseñados para destacar sin esfuerzo.<br>
+                    Materiales de calidad, acabados impecables y un diseño que fusiona lo clásico con lo inesperado. No sigas la corriente. <b>Redefine tu estilo con piezas que hablan por ti.</b>
+                </p>
+                <a href="/html/about/nosotros.html" class="boton-cta">Saber más</a>
+            </div>
         </section>
 
-        <div class="vertical-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum molestiae ad quis, dignissimos labore enim. Omnis quam in ipsum incidunt accusamus, consectetur ut dolor quod ipsam provident necessitatibus totam laboriosam.
-        </div>
+        <!-- Sabías que... -->
+        <section id="sabiasQue">
+            <img src="/assets/images/homepage/imagen4.JPG" alt="xd">
+            <div>
+                <h2 id="encabezadoSabiasQue">¿Sabías que...?</h2>
+                <p>
+                    En The Sisterhood Clip, cada accesorio se elabora con <b>materiales premium</b> y 
+                    <b>acabados impecables</b>, diseñados para resistir el uso diario sin perder su encanto. 
+                    Con <b>texturas suaves</b>, brillos elegantes y un <b>ajuste perfecto</b>, 
+                    cada pieza realza tu estilo y te acompaña en cualquier ocasión.
+                </p>
+            </div>
+        </section>
+
+        <section id="newsletter">
+            <div class="newsletter-contenido">
+                <h2 id="encabezadoNewsletter">Suscríbete y consigue tu -20%</h2>
+                <p>Vas a recibir novedades, descuentos y consejos de utilidad para cuidar tu cabello, con mucho amor.</p>
+                <form action="#" class="newsletter-form">
+                    <label for="email" class="sr-only">Correo electrónico</label>
+                    <input type="email" id="email" name="email" placeholder="Correo electrónico" required aria-label="Introduce tu correo electrónico" />
+                    <button type="submit">Recoger cupón</button>
+                </form>
+                <small class="newsletter-disclaimer">
+                    Al unirte aceptas recibir comunicaciones comerciales de <strong>The Sisterhood Clip S.L.</strong> Puedes retirar tu consentimiento cuando quieras.
+                </small>
+            </div>
+        </section>
     </main>
     
     <footer>

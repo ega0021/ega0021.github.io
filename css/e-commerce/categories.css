@@ -1,58 +1,203 @@
-/* Contenedor de productos con un poco más de espacio y un grid adaptable */
+/* 1️⃣ Introducción Gama */
+/* Sección del banner */
+#banner-gama {
+    width: 100%;
+    text-align: center;
+    padding: 3rem 2rem;
+    background: linear-gradient(to bottom, #f8ebe6, #f3d9d2); /* Degradado suave */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    max-width: 1000px;
+    margin: 2rem auto; /* Centrado en la página */
+  }
+  
+  /* Título (H1) */
+  #banner-gama h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif; /* Fuente clásica */
+    color: #4a2c2a; /* Tono marrón-vintage */
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Subtítulo */
+  #banner-gama .subtitulo {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #6a4f4b; /* Un tono más claro que el h1 */
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Descripción */
+  #banner-gama .descripcion-gama {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #5a3d3a; /* Un marrón cálido */
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Efecto de desvanecimiento al cargar */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-in-out forwards;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsividad */
+  @media (max-width: 768px) {
+    #banner-gama {
+      padding: 2rem 1rem;
+    }
+    #banner-gama h1 {
+      font-size: 2rem;
+    }
+    #banner-gama .subtitulo {
+      font-size: 1rem;
+    }
+    #banner-gama .descripcion-gama {
+      font-size: 0.9rem;
+    }
+  }
+
+/* 2️⃣ Productos */
 #productos {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 24px;
-    padding: 24px;
-}
+    gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    box-sizing: border-box;
+  }
+  
+  /* Tarjeta del producto */
+  .producto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 1rem;
+    box-sizing: border-box;
+    
+    /* Efecto “hover”: agrandamos un poco la tarjeta y realzamos la sombra */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .producto:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Enlace del producto (imagen, precio, texto) */
+  .producto a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    width: 100%;
+  }
 
-/* Cada producto con fondo blanco, bordes sutiles, bordes redondeados y sombra */
-.producto {
-    background: #fff;
-    border: 1px solid #e6e6e6;
-    padding: 20px;
-    text-align: center;
-    border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-/* Efecto hover para dar sensación de profundidad al mover el ratón */
-.producto:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
-}
-
-/* Imagen adaptativa y con esquinas ligeramente redondeadas */
-.producto img {
-    max-width: 100%;
+  .producto a h2 {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  }
+  
+  /* Imagen */
+  .producto img {
+    width: 100%;
     height: auto;
-    border-radius: 5px;
-}
-
-/* Encabezado con mayor tamaño y color resaltado */
-.producto h2 {
-    font-size: 1.4em;
-    margin: 12px 0;
-    color: #222;
-}
-
-/* Precio con tipografía legible y un color intermedio */
-.producto p {
-    font-size: 1.05em;
-    color: #555;
-    margin: 8px 0;
-}
-
-/* Media queries para adaptar la grilla en pantallas mayores */
-@media (min-width: 600px) {
+    border-radius: 15px;
+    object-fit: cover;
+    margin-bottom: 0.75rem;
+    transition: transform 0.2s;
+  }
+  .producto img:hover {
+    transform: scale(1.05); /* sutil zoom en la imagen */
+  }
+  
+  /* Precio */
+  .producto .precio {
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin: 0.5rem 0 0.25rem;
+    color: #000;
+  }
+  
+  /* Nombre */
+  .producto .nombre {
+    font-size: 1rem;
+    margin: 0 0 0.25rem;
+    font-weight: 600;
+    color: #000;
+  }
+  
+  /* Descripción */
+  .producto .descripcion {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: #666;
+    margin: 0 0 1rem;
+  }
+  
+  /* Botón */
+  .btn-carrito {
+    background-color: #670b1b; /* Bordó */
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    align-self: flex-start;
+  }
+  .btn-carrito:hover {
+    background-color: #4b0713;
+    transform: translateY(-2px);
+  }
+  
+  /* ---- Media Queries ---- */
+  
+  /* 3 columnas si baja de 1024px */
+  @media (max-width: 1024px) {
     #productos {
-        grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
     }
-}
-
-@media (min-width: 1024px) {
+  }
+  
+  /* 2 columnas si baja de 768px */
+  @media (max-width: 768px) {
     #productos {
-        grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(2, 1fr);
     }
-}
+  }
+  
+  /* Incluso por debajo de 480px, mantenemos 2 columnas */
+  @media (max-width: 480px) {
+    #productos {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    /* Si deseas centrar el contenido en pantallas pequeñas: */
+    .producto {
+      align-items: center;
+      text-align: center;
+    }
+    .btn-carrito {
+      align-self: center;
+      font-size: 0.75rem;  /* Más pequeño */
+      padding: 0.4rem 1rem; /* Padding más compacto */
+    }
+  }

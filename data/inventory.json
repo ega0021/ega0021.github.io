@@ -2,7 +2,8 @@
     {
         "sku": "producto-1",
         "nombre": "Producto I",
-        "descripcion": "descripción del producto",
+        "descripcion_corta": "descripción del producto",
+        "descripcion_completa": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel porta ex. Aenean consectetur posuere ullamcorper. Sed vehicula sapien nibh, et dapibus odio facilisis vitae. Proin ut ex pellentesque, egestas nunc sit amet, lobortis ligula. Etiam quis libero volutpat lorem pellentesque congue. Cras non diam laoreet, vehicula diam vel, auctor dui. Duis pulvinar vehicula varius. Nunc vitae congue tellus. Vivamus lacinia ante eget orci faucibus, ornare ultricies tellus sagittis. ",
         "precio": 10.99,
         "moneda": "EUR",
         "fotos": {
@@ -19,7 +20,8 @@
     {
         "sku": "producto-2",
         "nombre": "Producto II",
-        "descripcion": "descripción del producto",
+        "descripcion_corta": "descripción del producto",
+        "descripcion_completa": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel porta ex. Aenean consectetur posuere ullamcorper. Sed vehicula sapien nibh, et dapibus odio facilisis vitae. Proin ut ex pellentesque, egestas nunc sit amet, lobortis ligula. Etiam quis libero volutpat lorem pellentesque congue. Cras non diam laoreet, vehicula diam vel, auctor dui. Duis pulvinar vehicula varius. Nunc vitae congue tellus. Vivamus lacinia ante eget orci faucibus, ornare ultricies tellus sagittis. ",
         "precio": 7.99,
         "moneda": "EUR",
         "fotos": {
@@ -36,8 +38,9 @@
     {
         "sku": "producto-3",
         "nombre": "Producto III",
-        "descripcion": "descripción del producto",
-        "precio": 5.95,
+        "descripcion_corta": "descripción del producto",
+        "descripcion_completa": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel porta ex. Aenean consectetur posuere ullamcorper. Sed vehicula sapien nibh, et dapibus odio facilisis vitae. Proin ut ex pellentesque, egestas nunc sit amet, lobortis ligula. Etiam quis libero volutpat lorem pellentesque congue. Cras non diam laoreet, vehicula diam vel, auctor dui. Duis pulvinar vehicula varius. Nunc vitae congue tellus. Vivamus lacinia ante eget orci faucibus, ornare ultricies tellus sagittis. ",
+        "precio": 7.99,
         "moneda": "EUR",
         "fotos": {
             "portada": "https://placehold.co/800x800/f0e7db/f4c0d2?text=TSC",
@@ -53,7 +56,8 @@
     {
         "sku": "producto-4",
         "nombre": "Producto IV",
-        "descripcion": "descripción del producto",
+        "descripcion_corta": "descripción del producto",
+        "descripcion_completa": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel porta ex. Aenean consectetur posuere ullamcorper. Sed vehicula sapien nibh, et dapibus odio facilisis vitae. Proin ut ex pellentesque, egestas nunc sit amet, lobortis ligula. Etiam quis libero volutpat lorem pellentesque congue. Cras non diam laoreet, vehicula diam vel, auctor dui. Duis pulvinar vehicula varius. Nunc vitae congue tellus. Vivamus lacinia ante eget orci faucibus, ornare ultricies tellus sagittis. ",
         "precio": 24.95,
         "moneda": "EUR",
         "fotos": {
@@ -70,7 +74,8 @@
     {
         "sku": "producto-5",
         "nombre": "Producto V",
-        "descripcion": "descripción del producto",
+        "descripcion_corta": "descripción del producto",
+        "descripcion_completa": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel porta ex. Aenean consectetur posuere ullamcorper. Sed vehicula sapien nibh, et dapibus odio facilisis vitae. Proin ut ex pellentesque, egestas nunc sit amet, lobortis ligula. Etiam quis libero volutpat lorem pellentesque congue. Cras non diam laoreet, vehicula diam vel, auctor dui. Duis pulvinar vehicula varius. Nunc vitae congue tellus. Vivamus lacinia ante eget orci faucibus, ornare ultricies tellus sagittis. ",
         "precio": 2.99,
         "moneda": "EUR",
         "fotos": {
@@ -87,7 +92,8 @@
     {
         "sku": "producto-6",
         "nombre": "Producto VI",
-        "descripcion": "descripción del producto",
+        "descripcion_corta": "descripción del producto",
+        "descripcion_completa": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel porta ex. Aenean consectetur posuere ullamcorper. Sed vehicula sapien nibh, et dapibus odio facilisis vitae. Proin ut ex pellentesque, egestas nunc sit amet, lobortis ligula. Etiam quis libero volutpat lorem pellentesque congue. Cras non diam laoreet, vehicula diam vel, auctor dui. Duis pulvinar vehicula varius. Nunc vitae congue tellus. Vivamus lacinia ante eget orci faucibus, ornare ultricies tellus sagittis. ",
         "precio": 10.00,
         "moneda": "EUR",
         "fotos": {
@@ -104,7 +110,8 @@
     {
         "sku": "producto-7",
         "nombre": "Producto VII",
-        "descripcion": "descripción del producto",
+        "descripcion_corta": "descripción del producto",
+        "descripcion_completa": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel porta ex. Aenean consectetur posuere ullamcorper. Sed vehicula sapien nibh, et dapibus odio facilisis vitae. Proin ut ex pellentesque, egestas nunc sit amet, lobortis ligula. Etiam quis libero volutpat lorem pellentesque congue. Cras non diam laoreet, vehicula diam vel, auctor dui. Duis pulvinar vehicula varius. Nunc vitae congue tellus. Vivamus lacinia ante eget orci faucibus, ornare ultricies tellus sagittis. ",
         "precio": 7.99,
         "moneda": "EUR",
         "fotos": {
@@ -121,7 +128,8 @@
     {
         "sku": "producto-8",
         "nombre": "Producto VIII",
-        "descripcion": "descripción del producto",
+        "descripcion_corta": "descripción del producto",
+        "descripcion_completa": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel porta ex. Aenean consectetur posuere ullamcorper. Sed vehicula sapien nibh, et dapibus odio facilisis vitae. Proin ut ex pellentesque, egestas nunc sit amet, lobortis ligula. Etiam quis libero volutpat lorem pellentesque congue. Cras non diam laoreet, vehicula diam vel, auctor dui. Duis pulvinar vehicula varius. Nunc vitae congue tellus. Vivamus lacinia ante eget orci faucibus, ornare ultricies tellus sagittis. ",
         "precio": 12.50,
         "moneda": "EUR",
         "fotos": {
@@ -138,7 +146,8 @@
     {
         "sku": "producto-9",
         "nombre": "Producto IX",
-        "descripcion": "descripción del producto",
+        "descripcion_corta": "descripción del producto",
+        "descripcion_completa": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel porta ex. Aenean consectetur posuere ullamcorper. Sed vehicula sapien nibh, et dapibus odio facilisis vitae. Proin ut ex pellentesque, egestas nunc sit amet, lobortis ligula. Etiam quis libero volutpat lorem pellentesque congue. Cras non diam laoreet, vehicula diam vel, auctor dui. Duis pulvinar vehicula varius. Nunc vitae congue tellus. Vivamus lacinia ante eget orci faucibus, ornare ultricies tellus sagittis. ",
         "precio": 14.95,
         "moneda": "EUR",
         "fotos": {
@@ -155,7 +164,8 @@
     {
         "sku": "producto-10",
         "nombre": "Producto X",
-        "descripcion": "descripción del producto",
+        "descripcion_corta": "descripción del producto",
+        "descripcion_completa": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel porta ex. Aenean consectetur posuere ullamcorper. Sed vehicula sapien nibh, et dapibus odio facilisis vitae. Proin ut ex pellentesque, egestas nunc sit amet, lobortis ligula. Etiam quis libero volutpat lorem pellentesque congue. Cras non diam laoreet, vehicula diam vel, auctor dui. Duis pulvinar vehicula varius. Nunc vitae congue tellus. Vivamus lacinia ante eget orci faucibus, ornare ultricies tellus sagittis. ",
         "precio": 22.99,
         "moneda": "EUR",
         "fotos": {
