@@ -93,63 +93,204 @@
     }
   }
 
-  /* 2️⃣ Catálogo de Gamas */
-  #encabezadoGamas {
-      font-size: 28px;
-      margin-bottom: 20px;
-      color: #333;
-      text-align: center;
-  }
+/* 2️⃣ Catálogo de Gamas */
+#catalogoGamas {
+  max-width: 1200px;      /* Para no ocupar toda la pantalla en monitores grandes */
+  margin: 4rem auto;      /* 4rem arriba/abajo, auto para centrar */
+  padding: 0 1.5rem;      /* Espacio a los lados */
+}
 
-  .tarjetas-container {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: var(--color-beige-claro);
-  }
+#encabezadoGamas {
+  font-size: 2rem; 
+  margin: 0 auto 2rem auto;         /* Quita margen superior extra, 2rem abajo */
+  text-align: center;
+  letter-spacing: 1px;              /* Ligero espaciado de letras */
+  font-weight: 600;                 /* Un peso medio/semibold para hacerlo más elegante */
+  position: relative;
+}
 
+/* Contenedor de tarjetas */
+.tarjetas-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem; /* más espacio entre tarjetas */
+  max-width: 1200px;
+  margin: 0 auto; /* centrado en la página */
+  padding: 0 1rem;
+}
+
+/* Tarjeta individual */
+.tarjeta {
+  position: relative;
+  width: 350px;
+  height: 500px;
+  border-radius: 50px;
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+  /* Opcional: un suave borde “vintage” */
+  /*border: 2px solid var(--color-beige-claro);*/
+
+  /* Transición y pequeña sombra para dar relieve */
+ /* box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);*/
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Pequeña animación de hover */
+.tarjeta:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagen de fondo de la tarjeta */
+.tarjeta img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Filtro (overlay) degradado para un efecto sutil */
+.filtro {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(
+    to top, 
+    var(--color-rosa-claro),
+    rgba(0, 0, 0, 0)
+  );
+  z-index: 1;
+}
+
+/* Texto sobre la imagen */
+.texto {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  z-index: 2;
+}
+
+/* Simulación de ruido/grano con un pseudo-elemento */
+.tarjeta::before {
+  content: "";
+  position: absolute;
+  inset: 0; /* top, right, bottom, left = 0 */
+  pointer-events: none;
+  z-index: 1; /* justo detrás del texto pero sobre la imagen */
+  
+  /* Ejemplo de pattern de puntos/radial muy sutil */
+  background: repeating-radial-gradient(
+    rgba(0, 0, 0, 0.02) 0px,
+    rgba(0, 0, 0, 0.02) 1px,
+    transparent 2px,
+    transparent 100%
+  );
+  opacity: .1; /* ajusta la fuerza del grano */
+}
+
+/* Responsivo: en móviles, que las tarjetas ocupen todo el ancho y se ajusten de altura */
+@media (max-width: 768px) {
   .tarjeta {
-    width: 350px;
-    height: 500px;
-    border-radius: 50px;
-    overflow: hidden;
-    position: relative;
-    cursor: pointer;
-    text-decoration: none;
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
   }
-
   .tarjeta img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
   }
-
+  /* El overlay que era 50% de la altura, ahora quizás conviene hacerlo más pequeño o ajustarlo */
   .filtro {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 50%;
-    background: linear-gradient(to top, var(--color-rosa-claro), rgba(0, 0, 0, 0));
-    z-index: 1;
+    height: 40%;
   }
-
   .texto {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    z-index: 2;
+    font-size: 1.5rem;
+  }
+}
+
+/* 3️⃣ Sobre Nosotros */
+#sobreNosotros {
+  /* Opcional: ligero fondo beige para un aire vintage */
+  background-color: #f5ece2;
+
+  /* Limitamos el ancho y centramos */
+  max-width: 800px;
+  margin: 4rem auto;
+  /* Padding lateral para no pegar el texto a los bordes */
+  padding: 2rem 1.5rem;
+  
+  /* Centramos el texto (encabezado + párrafo) */
+  text-align: center;
+}
+
+/* Encabezado */
+#encabezadoSobreNosotros {
+  position: relative;         /* Nos permite añadir decoraciones con pseudo-elementos */
+  font-size: 2rem;            /* Tamaño más grande para destacar */
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;        /* Ligero espaciado para dar elegancia */
+  font-weight: 700;           /* Un peso alto para el título */
+  color: #000;                /* Ajusta según tu paleta */
+}
+
+/* Líneas o detalles decorativos opcionales debajo del h2 */
+#encabezadoSobreNosotros::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background-color: #670b1b; /* Bordó */
+  margin: 0.75rem auto 0 auto;
+}
+
+/* Párrafo */
+#sobreNosotros p {
+  margin-bottom: 2rem;
+  line-height: 1.6; /* Para que el texto respire mejor */
+  color: #333;      /* Contraste moderado sobre el fondo claro */
+}
+
+/* Botón CTA */
+.boton-cta {
+  display: inline-block;
+  background-color: #670b1b; /* Color bordó */
+  color: #fff;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 30px;        /* Esquinas redondeadas */
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover con un tono ligeramente más oscuro o una leve elevación */
+.boton-cta:hover {
+  background-color: #4b0713;  /* Más oscuro */
+  transform: translateY(-2px);
+}
+
+/* Responsividad en pantallas pequeñas */
+@media (max-width: 768px) {
+  #sobreNosotros {
+    margin: 2rem auto;
+    padding: 1.5rem;
   }
   
-  /* Lorem ipsum */
-  .vertical-text {
-    white-space: pre; 
-    writing-mode: vertical-rl;
-    line-height: 1.5; 
-    font-size: 1.2rem;
+  #encabezadoSobreNosotros {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
   }
+  
+  #sobreNosotros p {
+    font-size: 1rem;
+  }
+  
+  .boton-cta {
+    padding: 0.65rem 1.2rem;
+  }
+}
