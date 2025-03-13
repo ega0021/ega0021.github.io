@@ -52,7 +52,7 @@ class TSCHeader extends HTMLElement {
                         <ul>
                             <li><a href="/html/e-commerce/categories/clasica.html">Clásica</a></li>
                             <li><a href="/html/e-commerce/categories/colorpulse.html">Color Pulse</a></li>
-                            <li><a href="/html/e-commerce/categories/exclusive.html">Exclusive</a></li><br>
+                            <li><a href="/html/e-commerce/categories/exclusive.html">Exclusiva</a></li><br>
                             <li><a href="/html/user/acceso.html">Cuenta</a></li>
                             <li><a href="/html/about/nosotros.html">Nosotros</a></li>
                             <li><a href="mailto:hola@thesisterhoodclip.com">Contacto</a></li>

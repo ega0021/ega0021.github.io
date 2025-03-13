@@ -334,3 +334,86 @@ footer {
     justify-content: center;
   }
 }
+
+@media (max-width: 480px) {
+    .footer-bottom nav ul {
+      display: flex;
+      flex-wrap: wrap; /* Permite que se ajusten sin romperse */
+      justify-content: center; /* Asegura que todo esté centrado */
+      gap: 12px; /* Espacio entre los enlaces */
+      padding: 0;
+    }
+  
+    /* Quitamos el separador "|" en móvil */
+    .footer-bottom nav ul li:not(:last-child)::after {
+      content: none;
+    }
+  
+    /* Reducimos el tamaño de fuente para que quepan mejor */
+    .footer-bottom nav ul li a {
+      font-size: 0.9rem;
+    }
+  }
+
+  /* 7️⃣ Breadcrumbs */
+  /* --- ESTILOS BASE --- */
+ /* --- Contenedor de los breadcrumbs --- */
+ tsc-breadcrumbs {
+    position: absolute;
+    top: 20px; /* Margen desde la parte superior */
+    left: 20px; /* Margen desde la izquierda */
+    z-index: 10; /* Asegura que esté sobre otros elementos */
+  }
+  
+  /* --- Asegurar que los breadcrumbs se vean bien en su ubicación --- */
+  tsc-breadcrumbs ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-family: "EB Garamond", serif;
+  }
+  
+  /* --- Estilos para los elementos <li> --- */
+  tsc-breadcrumbs li {
+    display: flex;
+    align-items: center;
+    color: #4a2c2a;
+  }
+  
+  /* --- Separador "›" entre enlaces --- */
+  tsc-breadcrumbs li:not(:last-child)::after {
+    content: "›"; /* Puedes cambiarlo por "»" o "/" según la estética */
+    margin: 0 8px;
+    color: #6a4f4b; /* Color más tenue para el separador */
+  }
+  
+  /* --- Estilos para los enlaces dentro del breadcrumb --- */
+  tsc-breadcrumbs li a {
+    text-decoration: none;
+    color: #670b1b; /* Color bordó de la marca */
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  tsc-breadcrumbs li a:hover {
+    color: #4b0713;
+  }
+  
+  /* --- Último elemento (breadcrumb activo) --- */
+  tsc-breadcrumbs li span.activo {
+    font-weight: bold;
+    color: #4a2c2a;
+  }
+  
+  /* --- Ajuste responsivo para evitar que se corte en pantallas pequeñas --- */
+  @media (max-width: 768px) {
+    tsc-breadcrumbs {
+      position: relative; /* Para evitar que flote en móviles */
+      top: auto;
+      left: auto;
+      margin: 1rem;
+    }
+  }
