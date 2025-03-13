@@ -1,182 +1,650 @@
 [
     {
-        "sku": "producto-1",
-        "nombre": "Producto I",
-        "descripcion_corta": "descripción del producto",
-        "descripcion_completa": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel porta ex. Aenean consectetur posuere ullamcorper. Sed vehicula sapien nibh, et dapibus odio facilisis vitae. Proin ut ex pellentesque, egestas nunc sit amet, lobortis ligula. Etiam quis libero volutpat lorem pellentesque congue. Cras non diam laoreet, vehicula diam vel, auctor dui. Duis pulvinar vehicula varius. Nunc vitae congue tellus. Vivamus lacinia ante eget orci faucibus, ornare ultricies tellus sagittis. ",
+      "sku": "pinza-elegance-perlas",
+      "nombre": "Pinza Elegance Perlas",
+      "descripcion_corta": "Un toque clásico con perlas atemporales.",
+      "descripcion_completa": "Esta pinza combina la elegancia de las perlas con un diseño sofisticado. Ideal para eventos formales o para elevar cualquier look diario.",
+      "precio": 14.99,
+      "moneda": "EUR",
+      "fotos": {
+        "portada": "https://placehold.co/800x800/f0e7db/f4c0d2?text=TSC",
+        "galeria": {
+          "blanco": ["https://placehold.co/800x800/f0e7db/ffffff?text=TSC"]
+        }
+      },
+      "colores": ["blanco"],
+      "categoria": "clasica",
+      "peso": 1,
+      "fecha_actualizacion": "2025-03-13"
+    },
+    {
+      "sku": "diadema-classic-touch",
+      "nombre": "Diadema Classic Touch",
+      "descripcion_corta": "La sofisticación en su máxima expresión.",
+      "descripcion_completa": "Esta diadema de terciopelo negro es la esencia del buen gusto y la distinción. Perfecta para cualquier ocasión en la que quieras destacar con sutileza.",
+      "precio": 18.50,
+      "moneda": "EUR",
+      "fotos": {
+        "portada": "https://placehold.co/800x800/f0e7db/4a0018?text=TSC",
+        "galeria": {
+          "negro": ["https://placehold.co/800x800/f0e7db/000000?text=TSC"]
+        }
+      },
+      "colores": ["negro"],
+      "categoria": "clasica",
+      "peso": 1,
+      "fecha_actualizacion": "2025-03-13"
+    },
+    {
+      "sku": "scrunchie-velvet-luxe",
+      "nombre": "Scrunchie Velvet Luxe",
+      "descripcion_corta": "Un básico de lujo en terciopelo.",
+      "descripcion_completa": "Este scrunchie en terciopelo suave aporta elegancia y confort. Disponible en colores neutros y sofisticados para combinar con cualquier look.",
+      "precio": 9.99,
+      "moneda": "EUR",
+      "fotos": {
+        "portada": "https://placehold.co/800x800/f0e7db/670B1B?text=TSC",
+        "galeria": {
+          "bordo": ["https://placehold.co/800x800/f0e7db/670B1B?text=TSC"]
+        }
+      },
+      "colores": ["bordo"],
+      "categoria": "clasica",
+      "peso": 1,
+      "fecha_actualizacion": "2025-03-13"
+    },
+    {
+      "sku": "horquillas-golden-set",
+      "nombre": "Set de Horquillas Golden",
+      "descripcion_corta": "Un clásico con un toque dorado.",
+      "descripcion_completa": "Este set de horquillas doradas añade sofisticación a cualquier peinado. Perfecto para eventos especiales o para un look diario con distinción.",
+      "precio": 12.00,
+      "moneda": "EUR",
+      "fotos": {
+        "portada": "https://placehold.co/800x800/f0e7db/BBA607?text=TSC",
+        "galeria": {
+          "dorado": ["https://placehold.co/800x800/f0e7db/BBA607?text=TSC"]
+        }
+      },
+      "colores": ["dorado"],
+      "categoria": "clasica",
+      "peso": 1,
+      "fecha_actualizacion": "2025-03-13"
+    },
+    {
+      "sku": "goma-perlada-elegance",
+      "nombre": "Goma Perlada Elegance",
+      "descripcion_corta": "Distinción y sutileza en un accesorio esencial.",
+      "descripcion_completa": "Esta goma para el cabello cuenta con detalles perlados que la convierten en un complemento ideal para un look sofisticado.",
+      "precio": 8.50,
+      "moneda": "EUR",
+      "fotos": {
+        "portada": "https://placehold.co/800x800/f0e7db/ffffff?text=TSC",
+        "galeria": {
+          "blanco": ["https://placehold.co/800x800/f0e7db/ffffff?text=TSC"]
+        }
+      },
+      "colores": ["blanco"],
+      "categoria": "clasica",
+      "peso": 1,
+      "fecha_actualizacion": "2025-03-13"
+    },
+    {
+      "sku": "pinza-onyx-glam",
+      "nombre": "Pinza Onyx Glam",
+      "descripcion_corta": "Un diseño clásico en negro profundo.",
+      "descripcion_completa": "La pinza Onyx Glam ofrece un acabado mate en negro intenso, ideal para un look elegante y sofisticado que nunca pasa de moda.",
+      "precio": 15.99,
+      "moneda": "EUR",
+      "fotos": {
+        "portada": "https://placehold.co/800x800/f0e7db/000000?text=TSC",
+        "galeria": {
+          "negro": ["https://placehold.co/800x800/f0e7db/000000?text=TSC"]
+        }
+      },
+      "colores": ["negro"],
+      "categoria": "clasica",
+      "peso": 1,
+      "fecha_actualizacion": "2025-03-13"
+    },
+    {
+        "sku": "diadema-royal-touch",
+        "nombre": "Diadema Royal Touch",
+        "descripcion_corta": "La elegancia en su máxima expresión.",
+        "descripcion_completa": "Una diadema con acabado en satén y un diseño atemporal. Perfecta para complementar looks sofisticados con un toque de distinción.",
+        "precio": 22.50,
+        "moneda": "EUR",
+        "fotos": {
+          "portada": "https://placehold.co/800x800/f0e7db/4a0018?text=TSC",
+          "galeria": {
+            "bordo": ["https://placehold.co/800x800/f0e7db/4a0018?text=TSC"]
+          }
+        },
+        "colores": ["bordo"],
+        "categoria": "clasica",
+        "peso": 1,
+        "fecha_actualizacion": "2025-03-13"
+      },
+      {
+        "sku": "pinza-minimal-chic",
+        "nombre": "Pinza Minimal Chic",
+        "descripcion_corta": "Un básico esencial con un diseño depurado.",
+        "descripcion_completa": "Esta pinza en color beige es la definición de minimalismo y versatilidad. Un complemento perfecto para un look natural y refinado.",
+        "precio": 12.00,
+        "moneda": "EUR",
+        "fotos": {
+          "portada": "https://placehold.co/800x800/f0e7db/d1b7a1?text=TSC",
+          "galeria": {
+            "beige": ["https://placehold.co/800x800/f0e7db/d1b7a1?text=TSC"]
+          }
+        },
+        "colores": ["beige"],
+        "categoria": "clasica",
+        "peso": 1,
+        "fecha_actualizacion": "2025-03-13"
+      },
+      {
+        "sku": "goma-silk-elegance",
+        "nombre": "Goma Silk Elegance",
+        "descripcion_corta": "El lujo del satén en tu cabello.",
+        "descripcion_completa": "Una goma en satén suave que cuida el cabello y aporta un acabado refinado. Perfecta para recogidos elegantes sin esfuerzo.",
+        "precio": 9.50,
+        "moneda": "EUR",
+        "fotos": {
+          "portada": "https://placehold.co/800x800/f0e7db/ffffff?text=TSC",
+          "galeria": {
+            "blanco": ["https://placehold.co/800x800/f0e7db/ffffff?text=TSC"]
+          }
+        },
+        "colores": ["blanco"],
+        "categoria": "clasica",
+        "peso": 1,
+        "fecha_actualizacion": "2025-03-13"
+      },
+      {
+        "sku": "horquilla-elegance-duo",
+        "nombre": "Set Horquillas Elegance Duo",
+        "descripcion_corta": "Dos horquillas para un look refinado.",
+        "descripcion_completa": "Un set de horquillas metálicas en tono dorado, ideales para recogidos elegantes y pulidos. Un imprescindible en tu colección de accesorios.",
+        "precio": 14.00,
+        "moneda": "EUR",
+        "fotos": {
+          "portada": "https://placehold.co/800x800/f0e7db/BBA607?text=TSC",
+          "galeria": {
+            "dorado": ["https://placehold.co/800x800/f0e7db/BBA607?text=TSC"]
+          }
+        },
+        "colores": ["dorado"],
+        "categoria": "clasica",
+        "peso": 1,
+        "fecha_actualizacion": "2025-03-13"
+      },
+      {
+        "sku": "scrunchie-classic-black",
+        "nombre": "Scrunchie Classic Black",
+        "descripcion_corta": "Un clásico que nunca falla.",
+        "descripcion_completa": "Este scrunchie en negro mate es la pieza perfecta para cualquier look. Su material suave y resistente asegura un agarre firme sin dañar el cabello.",
+        "precio": 8.99,
+        "moneda": "EUR",
+        "fotos": {
+          "portada": "https://placehold.co/800x800/f0e7db/000000?text=TSC",
+          "galeria": {
+            "negro": ["https://placehold.co/800x800/f0e7db/000000?text=TSC"]
+          }
+        },
+        "colores": ["negro"],
+        "categoria": "clasica",
+        "peso": 1,
+        "fecha_actualizacion": "2025-03-13"
+      },
+      {
+        "sku": "diadema-graceful-twist",
+        "nombre": "Diadema Graceful Twist",
+        "descripcion_corta": "Un diseño sutil y con carácter.",
+        "descripcion_completa": "Con un elegante twist en su diseño, esta diadema en beige es ideal para darle un toque chic a cualquier outfit.",
+        "precio": 16.99,
+        "moneda": "EUR",
+        "fotos": {
+          "portada": "https://placehold.co/800x800/f0e7db/d1b7a1?text=TSC",
+          "galeria": {
+            "beige": ["https://placehold.co/800x800/f0e7db/d1b7a1?text=TSC"]
+          }
+        },
+        "colores": ["beige"],
+        "categoria": "clasica",
+        "peso": 1,
+        "fecha_actualizacion": "2025-03-13"
+      },
+      {
+        "sku": "pinza-colorburst-fucsia",
+        "nombre": "Pinza ColorBurst Fucsia",
+        "descripcion_corta": "Energía y color en un solo accesorio.",
+        "descripcion_completa": "Dale vida a tu peinado con esta pinza vibrante en fucsia eléctrico. Un toque audaz que transforma cualquier look en un statement de moda.",
+        "precio": 13.99,
+        "moneda": "EUR",
+        "fotos": {
+          "portada": "https://placehold.co/800x800/f4c0d2/f13d84?text=TSC",
+          "galeria": {
+            "fucsia": ["https://placehold.co/800x800/f4c0d2/f13d84?text=TSC"]
+          }
+        },
+        "colores": ["fucsia"],
+        "categoria": "colorpulse",
+        "peso": 1,
+        "fecha_actualizacion": "2025-03-13"
+      },
+      {
+        "sku": "diadema-rainbow-twist",
+        "nombre": "Diadema Rainbow Twist",
+        "descripcion_corta": "Un arcoíris de estilo para tu cabello.",
+        "descripcion_completa": "Esta diadema multicolor combina tonos vibrantes en un diseño twist que aporta frescura y dinamismo. Ideal para quienes aman destacar con color.",
+        "precio": 17.50,
+        "moneda": "EUR",
+        "fotos": {
+          "portada": "https://placehold.co/800x800/f4c0d2/BBA607?text=TSC",
+          "galeria": {
+            "multicolor": ["https://placehold.co/800x800/f4c0d2/BBA607?text=TSC"]
+          }
+        },
+        "colores": ["multicolor"],
+        "categoria": "colorpulse",
+        "peso": 1,
+        "fecha_actualizacion": "2025-03-13"
+      },
+      {
+        "sku": "scrunchie-neon-green",
+        "nombre": "Scrunchie Neon Green",
+        "descripcion_corta": "Explosión de color en verde neón.",
+        "descripcion_completa": "Un scrunchie atrevido que ilumina cualquier peinado. Hecho con materiales suaves pero resistentes, es ideal para el día a día o looks deportivos con un toque fashion.",
         "precio": 10.99,
         "moneda": "EUR",
         "fotos": {
-            "portada": "https://placehold.co/800x800/f0e7db/f4c0d2?text=TSC",
-            "galeria": {
-                "marron": ["https://placehold.co/800x800/f0e7db/4a0018?text=TSC", "https://placehold.co/800x800/f0e7db/4a0018?text=TSC"]
-            }
+          "portada": "https://placehold.co/800x800/f4c0d2/00cc66?text=TSC",
+          "galeria": {
+            "verde neón": ["https://placehold.co/800x800/f4c0d2/00cc66?text=TSC"]
+          }
         },
-        "colores": ["marron"],
-        "categoria": "clasica",
-        "peso": 1,
-        "fecha_actualizacion": "AAAA_MM_DD"
-    },
-    {
-        "sku": "producto-2",
-        "nombre": "Producto II",
-        "descripcion_corta": "descripción del producto",
-        "descripcion_completa": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel porta ex. Aenean consectetur posuere ullamcorper. Sed vehicula sapien nibh, et dapibus odio facilisis vitae. Proin ut ex pellentesque, egestas nunc sit amet, lobortis ligula. Etiam quis libero volutpat lorem pellentesque congue. Cras non diam laoreet, vehicula diam vel, auctor dui. Duis pulvinar vehicula varius. Nunc vitae congue tellus. Vivamus lacinia ante eget orci faucibus, ornare ultricies tellus sagittis. ",
-        "precio": 7.99,
-        "moneda": "EUR",
-        "fotos": {
-            "portada": "https://placehold.co/800x800/f0e7db/f4c0d2?text=TSC",
-            "galeria": {
-                "marron": ["https://placehold.co/800x800/f0e7db/4a0018?text=TSC", "https://placehold.co/800x800/f0e7db/4a0018?text=TSC"]
-            }
-        },
-        "colores": ["marron"],
-        "categoria": "clasica",
-        "peso": 1,
-        "fecha_actualizacion": "AAAA_MM_DD"
-    },
-    {
-        "sku": "producto-3",
-        "nombre": "Producto III",
-        "descripcion_corta": "descripción del producto",
-        "descripcion_completa": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel porta ex. Aenean consectetur posuere ullamcorper. Sed vehicula sapien nibh, et dapibus odio facilisis vitae. Proin ut ex pellentesque, egestas nunc sit amet, lobortis ligula. Etiam quis libero volutpat lorem pellentesque congue. Cras non diam laoreet, vehicula diam vel, auctor dui. Duis pulvinar vehicula varius. Nunc vitae congue tellus. Vivamus lacinia ante eget orci faucibus, ornare ultricies tellus sagittis. ",
-        "precio": 7.99,
-        "moneda": "EUR",
-        "fotos": {
-            "portada": "https://placehold.co/800x800/f0e7db/f4c0d2?text=TSC",
-            "galeria": {
-                "marron": ["https://placehold.co/800x800/f0e7db/4a0018?text=TSC", "https://placehold.co/800x800/f0e7db/4a0018?text=TSC"]
-            }
-        },
-        "colores": ["marron"],
-        "categoria": "clasica",
-        "peso": 1,
-        "fecha_actualizacion": "AAAA_MM_DD"
-    },
-    {
-        "sku": "producto-4",
-        "nombre": "Producto IV",
-        "descripcion_corta": "descripción del producto",
-        "descripcion_completa": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel porta ex. Aenean consectetur posuere ullamcorper. Sed vehicula sapien nibh, et dapibus odio facilisis vitae. Proin ut ex pellentesque, egestas nunc sit amet, lobortis ligula. Etiam quis libero volutpat lorem pellentesque congue. Cras non diam laoreet, vehicula diam vel, auctor dui. Duis pulvinar vehicula varius. Nunc vitae congue tellus. Vivamus lacinia ante eget orci faucibus, ornare ultricies tellus sagittis. ",
-        "precio": 24.95,
-        "moneda": "EUR",
-        "fotos": {
-            "portada": "https://placehold.co/800x800/f0e7db/f4c0d2?text=TSC",
-            "galeria": {
-                "marron": ["https://placehold.co/800x800/f0e7db/4a0018?text=TSC", "https://placehold.co/800x800/f0e7db/4a0018?text=TSC"]
-            }
-        },
-        "colores": ["marron"],
+        "colores": ["verde neón"],
         "categoria": "colorpulse",
         "peso": 1,
-        "fecha_actualizacion": "AAAA_MM_DD"
-    },
-    {
-        "sku": "producto-5",
-        "nombre": "Producto V",
-        "descripcion_corta": "descripción del producto",
-        "descripcion_completa": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel porta ex. Aenean consectetur posuere ullamcorper. Sed vehicula sapien nibh, et dapibus odio facilisis vitae. Proin ut ex pellentesque, egestas nunc sit amet, lobortis ligula. Etiam quis libero volutpat lorem pellentesque congue. Cras non diam laoreet, vehicula diam vel, auctor dui. Duis pulvinar vehicula varius. Nunc vitae congue tellus. Vivamus lacinia ante eget orci faucibus, ornare ultricies tellus sagittis. ",
-        "precio": 2.99,
-        "moneda": "EUR",
-        "fotos": {
-            "portada": "https://placehold.co/800x800/f0e7db/f4c0d2?text=TSC",
-            "galeria": {
-                "marron": ["https://placehold.co/800x800/f0e7db/4a0018?text=TSC", "https://placehold.co/800x800/f0e7db/4a0018?text=TSC"]
-            }
-        },
-        "colores": ["marron"],
-        "categoria": "colorpulse",
-        "peso": 1,
-        "fecha_actualizacion": "AAAA_MM_DD"
-    },
-    {
-        "sku": "producto-6",
-        "nombre": "Producto VI",
-        "descripcion_corta": "descripción del producto",
-        "descripcion_completa": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel porta ex. Aenean consectetur posuere ullamcorper. Sed vehicula sapien nibh, et dapibus odio facilisis vitae. Proin ut ex pellentesque, egestas nunc sit amet, lobortis ligula. Etiam quis libero volutpat lorem pellentesque congue. Cras non diam laoreet, vehicula diam vel, auctor dui. Duis pulvinar vehicula varius. Nunc vitae congue tellus. Vivamus lacinia ante eget orci faucibus, ornare ultricies tellus sagittis. ",
-        "precio": 10.00,
-        "moneda": "EUR",
-        "fotos": {
-            "portada": "https://placehold.co/800x800/f0e7db/f4c0d2?text=TSC",
-            "galeria": {
-                "marron": ["https://placehold.co/800x800/f0e7db/4a0018?text=TSC", "https://placehold.co/800x800/f0e7db/4a0018?text=TSC"]
-            }
-        },
-        "colores": ["marron"],
-        "categoria": "colorpulse",
-        "peso": 1,
-        "fecha_actualizacion": "AAAA_MM_DD"
-    },
-    {
-        "sku": "producto-7",
-        "nombre": "Producto VII",
-        "descripcion_corta": "descripción del producto",
-        "descripcion_completa": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel porta ex. Aenean consectetur posuere ullamcorper. Sed vehicula sapien nibh, et dapibus odio facilisis vitae. Proin ut ex pellentesque, egestas nunc sit amet, lobortis ligula. Etiam quis libero volutpat lorem pellentesque congue. Cras non diam laoreet, vehicula diam vel, auctor dui. Duis pulvinar vehicula varius. Nunc vitae congue tellus. Vivamus lacinia ante eget orci faucibus, ornare ultricies tellus sagittis. ",
-        "precio": 7.99,
-        "moneda": "EUR",
-        "fotos": {
-            "portada": "https://placehold.co/800x800/f0e7db/f4c0d2?text=TSC",
-            "galeria": {
-                "marron": ["https://placehold.co/800x800/f0e7db/4a0018?text=TSC", "https://placehold.co/800x800/f0e7db/4a0018?text=TSC"]
-            }
-        },
-        "colores": ["marron"],
-        "categoria": "colorpulse",
-        "peso": 1,
-        "fecha_actualizacion": "AAAA_MM_DD"
-    },
-    {
-        "sku": "producto-8",
-        "nombre": "Producto VIII",
-        "descripcion_corta": "descripción del producto",
-        "descripcion_completa": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel porta ex. Aenean consectetur posuere ullamcorper. Sed vehicula sapien nibh, et dapibus odio facilisis vitae. Proin ut ex pellentesque, egestas nunc sit amet, lobortis ligula. Etiam quis libero volutpat lorem pellentesque congue. Cras non diam laoreet, vehicula diam vel, auctor dui. Duis pulvinar vehicula varius. Nunc vitae congue tellus. Vivamus lacinia ante eget orci faucibus, ornare ultricies tellus sagittis. ",
+        "fecha_actualizacion": "2025-03-13"
+      },
+      {
+        "sku": "horquillas-electric-duo",
+        "nombre": "Set Horquillas Electric Duo",
+        "descripcion_corta": "Brillo y color en cada peinado.",
+        "descripcion_completa": "Un set de horquillas en tonos eléctricos que añaden personalidad a tu cabello. Perfectas para combinar con estilos desenfadados y juveniles.",
         "precio": 12.50,
         "moneda": "EUR",
         "fotos": {
-            "portada": "https://placehold.co/800x800/f0e7db/f4c0d2?text=TSC",
-            "galeria": {
-                "marron": ["https://placehold.co/800x800/f0e7db/4a0018?text=TSC", "https://placehold.co/800x800/f0e7db/4a0018?text=TSC"]
-            }
+          "portada": "https://placehold.co/800x800/f4c0d2/0033cc?text=TSC",
+          "galeria": {
+            "azul eléctrico": ["https://placehold.co/800x800/f4c0d2/0033cc?text=TSC"]
+          }
         },
-        "colores": ["marron"],
-        "categoria": "exclusive",
+        "colores": ["azul eléctrico"],
+        "categoria": "colorpulse",
         "peso": 1,
-        "fecha_actualizacion": "AAAA_MM_DD"
-    },
-    {
-        "sku": "producto-9",
-        "nombre": "Producto IX",
-        "descripcion_corta": "descripción del producto",
-        "descripcion_completa": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel porta ex. Aenean consectetur posuere ullamcorper. Sed vehicula sapien nibh, et dapibus odio facilisis vitae. Proin ut ex pellentesque, egestas nunc sit amet, lobortis ligula. Etiam quis libero volutpat lorem pellentesque congue. Cras non diam laoreet, vehicula diam vel, auctor dui. Duis pulvinar vehicula varius. Nunc vitae congue tellus. Vivamus lacinia ante eget orci faucibus, ornare ultricies tellus sagittis. ",
-        "precio": 14.95,
+        "fecha_actualizacion": "2025-03-13"
+      },
+      {
+        "sku": "goma-flash-orange",
+        "nombre": "Goma Flash Orange",
+        "descripcion_corta": "El toque vibrante que tu cabello necesita.",
+        "descripcion_completa": "Dale un giro audaz a tu look con esta goma en naranja vibrante. Hecha con un material ultra suave para evitar daños en el cabello.",
+        "precio": 8.99,
         "moneda": "EUR",
         "fotos": {
-            "portada": "https://placehold.co/800x800/f0e7db/f4c0d2?text=TSC",
-            "galeria": {
-                "marron": ["https://placehold.co/800x800/f0e7db/4a0018?text=TSC", "https://placehold.co/800x800/f0e7db/4a0018?text=TSC"]
-            }
+          "portada": "https://placehold.co/800x800/f4c0d2/ff6600?text=TSC",
+          "galeria": {
+            "naranja": ["https://placehold.co/800x800/f4c0d2/ff6600?text=TSC"]
+          }
         },
-        "colores": ["marron"],
-        "categoria": "exclusive",
+        "colores": ["naranja"],
+        "categoria": "colorpulse",
         "peso": 1,
-        "fecha_actualizacion": "AAAA_MM_DD"
-    },
-    {
-        "sku": "producto-10",
-        "nombre": "Producto X",
-        "descripcion_corta": "descripción del producto",
-        "descripcion_completa": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel porta ex. Aenean consectetur posuere ullamcorper. Sed vehicula sapien nibh, et dapibus odio facilisis vitae. Proin ut ex pellentesque, egestas nunc sit amet, lobortis ligula. Etiam quis libero volutpat lorem pellentesque congue. Cras non diam laoreet, vehicula diam vel, auctor dui. Duis pulvinar vehicula varius. Nunc vitae congue tellus. Vivamus lacinia ante eget orci faucibus, ornare ultricies tellus sagittis. ",
-        "precio": 22.99,
+        "fecha_actualizacion": "2025-03-13"
+      },
+      {
+        "sku": "pinza-sunset-glow",
+        "nombre": "Pinza Sunset Glow",
+        "descripcion_corta": "Un degradado de tonos cálidos en tu peinado.",
+        "descripcion_completa": "Inspirada en los atardeceres, esta pinza combina tonos naranjas, rosas y dorados en un diseño degradado. Un must-have para quienes aman los colores vibrantes.",
+        "precio": 15.99,
         "moneda": "EUR",
         "fotos": {
-            "portada": "https://placehold.co/800x800/f0e7db/f4c0d2?text=TSC",
-            "galeria": {
-                "marron": ["https://placehold.co/800x800/f0e7db/4a0018?text=TSC", "https://placehold.co/800x800/f0e7db/4a0018?text=TSC"]
-            }
+          "portada": "https://placehold.co/800x800/f4c0d2/f13d84?text=TSC",
+          "galeria": {
+            "degradado cálido": ["https://placehold.co/800x800/f4c0d2/f13d84?text=TSC"]
+          }
         },
-        "colores": ["marron"],
-        "categoria": "clasica",
+        "colores": ["degradado cálido"],
+        "categoria": "colorpulse",
         "peso": 1,
-        "fecha_actualizacion": "AAAA_MM_DD"
-    }
-]
+        "fecha_actualizacion": "2025-03-13"
+      },
+      {
+        "sku": "diadema-vibrant-wave",
+        "nombre": "Diadema Vibrant Wave",
+        "descripcion_corta": "Ondas de color para un look único.",
+        "descripcion_completa": "Esta diadema de diseño ondulado y colores vibrantes es la definición de frescura y creatividad. Perfecta para quienes aman un estilo llamativo y moderno.",
+        "precio": 19.50,
+        "moneda": "EUR",
+        "fotos": {
+          "portada": "https://placehold.co/800x800/f4c0d2/ffcc00?text=TSC",
+          "galeria": {
+            "amarillo vibrante": ["https://placehold.co/800x800/f4c0d2/ffcc00?text=TSC"]
+          }
+        },
+        "colores": ["amarillo vibrante"],
+        "categoria": "colorpulse",
+        "peso": 1,
+        "fecha_actualizacion": "2025-03-13"
+      },
+      {
+        "sku": "pinza-electric-blue",
+        "nombre": "Pinza Electric Blue",
+        "descripcion_corta": "Un azul eléctrico que destaca.",
+        "descripcion_completa": "Esta pinza en un azul vibrante y metálico es ideal para quienes buscan un accesorio moderno y audaz. Perfecta para cualquier look urbano y fashionista.",
+        "precio": 14.99,
+        "moneda": "EUR",
+        "fotos": {
+          "portada": "https://placehold.co/800x800/f4c0d2/0033cc?text=TSC",
+          "galeria": {
+            "azul eléctrico": ["https://placehold.co/800x800/f4c0d2/0033cc?text=TSC"]
+          }
+        },
+        "colores": ["azul eléctrico"],
+        "categoria": "colorpulse",
+        "peso": 1,
+        "fecha_actualizacion": "2025-03-13"
+      },
+      {
+        "sku": "scrunchie-glow-purple",
+        "nombre": "Scrunchie Glow Purple",
+        "descripcion_corta": "Brillo y color en un solo accesorio.",
+        "descripcion_completa": "Este scrunchie en púrpura vibrante con un ligero brillo es perfecto para dar un toque glamuroso a cualquier peinado.",
+        "precio": 11.50,
+        "moneda": "EUR",
+        "fotos": {
+          "portada": "https://placehold.co/800x800/f4c0d2/660099?text=TSC",
+          "galeria": {
+            "morado": ["https://placehold.co/800x800/f4c0d2/660099?text=TSC"]
+          }
+        },
+        "colores": ["morado"],
+        "categoria": "colorpulse",
+        "peso": 1,
+        "fecha_actualizacion": "2025-03-13"
+      },
+      {
+        "sku": "goma-pop-art",
+        "nombre": "Goma Pop Art",
+        "descripcion_corta": "Un estallido de color en tu cabello.",
+        "descripcion_completa": "Inspirada en los colores del pop art, esta goma es una explosión de creatividad y diversión. Ideal para quienes buscan accesorios únicos y originales.",
+        "precio": 9.99,
+        "moneda": "EUR",
+        "fotos": {
+          "portada": "https://placehold.co/800x800/f4c0d2/ff0033?text=TSC",
+          "galeria": {
+            "rojo vibrante": ["https://placehold.co/800x800/f4c0d2/ff0033?text=TSC"]
+          }
+        },
+        "colores": ["rojo vibrante"],
+        "categoria": "colorpulse",
+        "peso": 1,
+        "fecha_actualizacion": "2025-03-13"
+      },
+      {
+        "sku": "horquilla-disco-glow",
+        "nombre": "Horquilla Disco Glow",
+        "descripcion_corta": "Reflejos brillantes para iluminar tu peinado.",
+        "descripcion_completa": "Esta horquilla en tonos neón y acabado brillante es ideal para fiestas y looks de noche. Aporta un toque disco a cualquier recogido.",
+        "precio": 12.50,
+        "moneda": "EUR",
+        "fotos": {
+          "portada": "https://placehold.co/800x800/f4c0d2/00ff99?text=TSC",
+          "galeria": {
+            "verde neón": ["https://placehold.co/800x800/f4c0d2/00ff99?text=TSC"]
+          }
+        },
+        "colores": ["verde neón"],
+        "categoria": "colorpulse",
+        "peso": 1,
+        "fecha_actualizacion": "2025-03-13"
+      },
+      {
+        "sku": "diadema-sunset-blend",
+        "nombre": "Diadema Sunset Blend",
+        "descripcion_corta": "El degradado perfecto de un atardecer.",
+        "descripcion_completa": "Esta diadema presenta un degradado de tonos cálidos que evoca la belleza de un atardecer. Un accesorio perfecto para looks vibrantes y originales.",
+        "precio": 18.99,
+        "moneda": "EUR",
+        "fotos": {
+          "portada": "https://placehold.co/800x800/f4c0d2/f13d84?text=TSC",
+          "galeria": {
+            "degradado cálido": ["https://placehold.co/800x800/f4c0d2/f13d84?text=TSC"]
+          }
+        },
+        "colores": ["degradado cálido"],
+        "categoria": "colorpulse",
+        "peso": 1,
+        "fecha_actualizacion": "2025-03-13"
+      },
+      {
+        "sku": "diadema-exquisite-pearl",
+        "nombre": "Diadema Exquisite Pearl",
+        "descripcion_corta": "Un diseño exclusivo con perlas auténticas.",
+        "descripcion_completa": "Esta diadema es una pieza de edición limitada con perlas naturales incrustadas a mano. Elegancia en su máxima expresión, perfecta para eventos y ocasiones especiales.",
+        "precio": 29.99,
+        "moneda": "EUR",
+        "fotos": {
+          "portada": "https://placehold.co/800x800/f13d84/ffffff?text=TSC",
+          "galeria": {
+            "blanco": ["https://placehold.co/800x800/f13d84/ffffff?text=TSC"]
+          }
+        },
+        "colores": ["blanco"],
+        "categoria": "exclusive",
+        "peso": 1,
+        "fecha_actualizacion": "2025-03-13"
+      },
+      {
+        "sku": "pinza-golden-luxury",
+        "nombre": "Pinza Golden Luxury",
+        "descripcion_corta": "Edición especial en dorado.",
+        "descripcion_completa": "Un accesorio diseñado para eventos exclusivos. Su acabado en dorado y su estructura elegante la convierten en un complemento ideal para un look sofisticado.",
+        "precio": 34.99,
+        "moneda": "EUR",
+        "fotos": {
+          "portada": "https://placehold.co/800x800/f13d84/BBA607?text=TSC",
+          "galeria": {
+            "dorado": ["https://placehold.co/800x800/f13d84/BBA607?text=TSC"]
+          }
+        },
+        "colores": ["dorado"],
+        "categoria": "exclusive",
+        "peso": 1,
+        "fecha_actualizacion": "2025-03-13"
+      },
+      {
+        "sku": "scrunchie-luxe-silk",
+        "nombre": "Scrunchie Luxe Silk",
+        "descripcion_corta": "Seda pura para un acabado impecable.",
+        "descripcion_completa": "Este scrunchie de edición limitada está confeccionado en 100% seda natural. Un accesorio suave, elegante y diseñado para proteger tu cabello con el máximo cuidado.",
+        "precio": 22.50,
+        "moneda": "EUR",
+        "fotos": {
+          "portada": "https://placehold.co/800x800/f13d84/d1b7a1?text=TSC",
+          "galeria": {
+            "beige": ["https://placehold.co/800x800/f13d84/d1b7a1?text=TSC"]
+          }
+        },
+        "colores": ["beige"],
+        "categoria": "exclusive",
+        "peso": 1,
+        "fecha_actualizacion": "2025-03-13"
+      },
+      {
+        "sku": "horquillas-crystal-duo",
+        "nombre": "Set Horquillas Crystal Duo",
+        "descripcion_corta": "Brillos sutiles, lujo incomparable.",
+        "descripcion_completa": "Este set de horquillas con incrustaciones de cristales es la elección perfecta para un look refinado. Edición limitada para quienes aman los detalles únicos.",
+        "precio": 26.99,
+        "moneda": "EUR",
+        "fotos": {
+          "portada": "https://placehold.co/800x800/f13d84/ffffff?text=TSC",
+          "galeria": {
+            "transparente": ["https://placehold.co/800x800/f13d84/ffffff?text=TSC"]
+          }
+        },
+        "colores": ["transparente"],
+        "categoria": "exclusive",
+        "peso": 1,
+        "fecha_actualizacion": "2025-03-13"
+      },
+      {
+        "sku": "goma-diamond-velvet",
+        "nombre": "Goma Diamond Velvet",
+        "descripcion_corta": "Una joya de terciopelo.",
+        "descripcion_completa": "Elaborada con terciopelo italiano y detalles en cristales de Swarovski, esta goma es una pieza de lujo para quienes buscan accesorios exclusivos.",
+        "precio": 28.99,
+        "moneda": "EUR",
+        "fotos": {
+          "portada": "https://placehold.co/800x800/f13d84/4a0018?text=TSC",
+          "galeria": {
+            "bordo": ["https://placehold.co/800x800/f13d84/4a0018?text=TSC"]
+          }
+        },
+        "colores": ["bordo"],
+        "categoria": "exclusive",
+        "peso": 1,
+        "fecha_actualizacion": "2025-03-13"
+      },
+      {
+        "sku": "diadema-velvet-royale",
+        "nombre": "Diadema Velvet Royale",
+        "descripcion_corta": "Lujo y suavidad en una diadema única.",
+        "descripcion_completa": "Confeccionada en terciopelo de alta calidad y con detalles dorados, esta diadema es una declaración de estilo. Perfecta para elevar cualquier look.",
+        "precio": 32.99,
+        "moneda": "EUR",
+        "fotos": {
+          "portada": "https://placehold.co/800x800/f13d84/000000?text=TSC",
+          "galeria": {
+            "negro": ["https://placehold.co/800x800/f13d84/000000?text=TSC"]
+          }
+        },
+        "colores": ["negro"],
+        "categoria": "exclusive",
+        "peso": 1,
+        "fecha_actualizacion": "2025-03-13"
+      },  {
+        "sku": "pinza-royal-gold",
+        "nombre": "Pinza Royal Gold",
+        "descripcion_corta": "Un acabado dorado que resalta tu estilo.",
+        "descripcion_completa": "Esta pinza de edición limitada en acabado dorado mate es el accesorio perfecto para quienes buscan sofisticación y exclusividad en su día a día.",
+        "precio": 35.50,
+        "moneda": "EUR",
+        "fotos": {
+          "portada": "https://placehold.co/800x800/f13d84/BBA607?text=TSC",
+          "galeria": {
+            "dorado": ["https://placehold.co/800x800/f13d84/BBA607?text=TSC"]
+          }
+        },
+        "colores": ["dorado"],
+        "categoria": "exclusive",
+        "peso": 1,
+        "fecha_actualizacion": "2025-03-13"
+      },
+      {
+        "sku": "diadema-black-diamond",
+        "nombre": "Diadema Black Diamond",
+        "descripcion_corta": "El poder del negro con un toque de brillo.",
+        "descripcion_completa": "Confeccionada en terciopelo negro y adornada con detalles de cristal, esta diadema es la fusión perfecta entre misterio y elegancia.",
+        "precio": 39.99,
+        "moneda": "EUR",
+        "fotos": {
+          "portada": "https://placehold.co/800x800/f13d84/000000?text=TSC",
+          "galeria": {
+            "negro": ["https://placehold.co/800x800/f13d84/000000?text=TSC"]
+          }
+        },
+        "colores": ["negro"],
+        "categoria": "exclusive",
+        "peso": 1,
+        "fecha_actualizacion": "2025-03-13"
+      },
+      {
+        "sku": "scrunchie-royal-sapphire",
+        "nombre": "Scrunchie Royal Sapphire",
+        "descripcion_corta": "Inspirado en la belleza del zafiro.",
+        "descripcion_completa": "Este scrunchie de seda en azul profundo evoca la majestuosidad de los zafiros reales. Una pieza única que aporta un toque de distinción a cualquier peinado.",
+        "precio": 25.99,
+        "moneda": "EUR",
+        "fotos": {
+          "portada": "https://placehold.co/800x800/f13d84/0033cc?text=TSC",
+          "galeria": {
+            "azul zafiro": ["https://placehold.co/800x800/f13d84/0033cc?text=TSC"]
+          }
+        },
+        "colores": ["azul zafiro"],
+        "categoria": "exclusive",
+        "peso": 1,
+        "fecha_actualizacion": "2025-03-13"
+      },
+      {
+        "sku": "horquilla-elegance-gold",
+        "nombre": "Horquilla Elegance Gold",
+        "descripcion_corta": "El toque dorado que tu cabello merece.",
+        "descripcion_completa": "Diseñada para elevar cualquier look, esta horquilla en acabado dorado con detalles en relieve es un accesorio esencial para quienes buscan distinción.",
+        "precio": 27.99,
+        "moneda": "EUR",
+        "fotos": {
+          "portada": "https://placehold.co/800x800/f13d84/BBA607?text=TSC",
+          "galeria": {
+            "dorado": ["https://placehold.co/800x800/f13d84/BBA607?text=TSC"]
+          }
+        },
+        "colores": ["dorado"],
+        "categoria": "exclusive",
+        "peso": 1,
+        "fecha_actualizacion": "2025-03-13"
+      },
+      {
+        "sku": "goma-pure-silk",
+        "nombre": "Goma Pure Silk",
+        "descripcion_corta": "La máxima suavidad para tu cabello.",
+        "descripcion_completa": "Confeccionada en 100% seda, esta goma no solo aporta un toque de lujo, sino que protege el cabello evitando quiebres. Un accesorio imprescindible para el cuidado del cabello.",
+        "precio": 29.50,
+        "moneda": "EUR",
+        "fotos": {
+          "portada": "https://placehold.co/800x800/f13d84/d1b7a1?text=TSC",
+          "galeria": {
+            "beige": ["https://placehold.co/800x800/f13d84/d1b7a1?text=TSC"]
+          }
+        },
+        "colores": ["beige"],
+        "categoria": "exclusive",
+        "peso": 1,
+        "fecha_actualizacion": "2025-03-13"
+      },
+      {
+        "sku": "diadema-regal-ruby",
+        "nombre": "Diadema Regal Ruby",
+        "descripcion_corta": "La joya de la colección.",
+        "descripcion_completa": "Inspirada en la realeza, esta diadema en tono rubí con detalles dorados es una pieza que aporta un aire majestuoso a cualquier look.",
+        "precio": 42.00,
+        "moneda": "EUR",
+        "fotos": {
+          "portada": "https://placehold.co/800x800/f13d84/4a0018?text=TSC",
+          "galeria": {
+            "bordo": ["https://placehold.co/800x800/f13d84/4a0018?text=TSC"]
+          }
+        },
+        "colores": ["bordo"],
+        "categoria": "exclusive",
+        "peso": 1,
+        "fecha_actualizacion": "2025-03-13"
+      }
+  ]
+  

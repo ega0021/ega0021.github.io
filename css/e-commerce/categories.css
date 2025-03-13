@@ -202,3 +202,35 @@
       padding: 0.4rem 1rem; /* Padding más compacto */
     }
   }
+
+
+
+
+
+
+
+
+
+  .producto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Distribuye los elementos de manera uniforme */
+  min-height: 380px; /* Ajusta según el tamaño general de las tarjetas */
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* --- Fijamos una altura mínima para la descripción para evitar desajustes --- */
+.producto .descripcion {
+  min-height: 3rem; /* Ajusta según el tamaño del texto */
+  display: flex;
+  align-items: center;
+}
+
+/* --- El botón del carrito siempre debe quedar alineado abajo --- */
+.producto .btn-carrito {
+  margin-top: auto; /* Empuja el botón hacia la parte inferior de la tarjeta */
+  align-self: center; /* Centra el botón en la tarjeta */
+}
