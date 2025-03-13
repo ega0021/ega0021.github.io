@@ -86,6 +86,10 @@ button {
     transform: translateY(-2px);
   }
 
+  .sr-only {
+    display: none;
+  }
+
 /* 5️⃣ Header */
 header {
   position: sticky;

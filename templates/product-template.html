@@ -11,11 +11,6 @@
     <meta name="description" content="Lorem ipsum" />
     <meta name="keywords" content="keyword1, keyword2, keyword 3" />
     <meta name="author" content="The Sisterhood Clip S.L." />
-    <meta name="robots" content="index, follow" />
-
-    <!-- URL canónica y enlaces alternativos -->
-    <link rel="canonical" href="/" />
-    <link rel="alternate" href="{{url}}" />
     
     <!-- Open Graph -->
     <meta property="og:title" content="The Sisterhood Clip® - Página Oficial" />
@@ -30,12 +25,6 @@
     <meta property="og:url" content="/index.html" />
     <meta property="og:locale" content="es_ES" />
 
-    <!-- Twitter Cards -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="The Sisterhood Clip® - Página Oficial" />
-    <meta name="twitter:description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum in facilis cum iure enim iusto ullam voluptate blanditiis et quae mollitia, sed facere cupiditate. Quaerat praesentium iure dolores illum laudantium." />
-    <meta name="twitter:image" content="/assets/meta/opengraph/opengraph.png" />
-    <meta name="twitter:site" content="@sisterhoodclip" />
 
     <!-- Favicon y Web App Manifest -->
     <link rel="icon" type="image/x-icon" href="/assets/meta/favicon/favicon.ico" />
@@ -48,19 +37,6 @@
 
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/meta/favicon/apple-touch-icon.png" />
     <meta name="apple-mobile-web-app-title" content="The Sisterhood Clip" />
-
-    <meta name="msapplication-TileColor" content="#f0e7db" />
-    <meta name="msapplication-TileImage" content="/assets/meta/favicon/mstile-150x150.png" />
-
-    <meta name="theme-color" content="#640018" />
-    <link rel="manifest" href="/assets/meta/favicon/site.webmanifest" />
-
-    <!-- Datos estructurados (JSON-LD) -->
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org"
-        }
-    </script>
 
     <!-- Hojas de estilo -->
     <link rel="stylesheet" href="/css/global.css" />
@@ -78,24 +54,20 @@
         <tsc-header></tsc-header>
     </header>
     
-    <main>
-        <article class="producto">
-            <h1>{{nombre-producto}}</h1>
-            <figure>
-                <img src="{{foto-producto}}" alt="Imagen de {{nombre-producto}}">
-                <figcaption>{{nombre-producto}}</figcaption>
-            </figure>
-            <section>
-                <h2>Descripción</h2>
-                <p>{{descripcion}}</p>
-            </section>
-            <section>
-                <h2>Precio</h2>
-                <p>
-                    <strong>{{precio}}</strong>
-                </p>
-            </section>
-        </article>
+    <main id="producto-detalle">
+        <!-- Imagen -->
+        <div class="producto-imagen">
+            <img src="{{foto}}" alt="Imagen de {{nombre}}">
+        </div>
+
+        <!-- Información del producto -->
+        <div class="producto-info">
+            <h1 class="producto-nombre">{{nombre}}</h1>
+            <p class="producto-subtitulo">{{subtitulo}}</p>
+            <p class="producto-descripcion">{{descripcion}}</p>
+            <p class="producto-precio">{{precio}}</p>
+            <button type="button" class="btn-carrito" onclick="alert('¡Artículo añadido al carrito! 🛒')">AÑADIR AL CARRITO</button>
+        </div>
     </main>
     
     <footer>

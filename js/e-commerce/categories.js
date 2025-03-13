@@ -45,7 +45,7 @@ function mostrarProductos(productos, criterio) {
                 <h2 class="nombre">${producto.nombre}</h2>
                 <p class="descripcion">${producto.descripcion_corta}</p>
                 </a>
-            <button class="btn-carrito" type="button">AÑADIR AL CARRITO</button>
+            <button class="btn-carrito" type="button" onclick="alert('¡Artículo añadido al carrito! 🛒')">AÑADIR AL CARRITO</button>
         `;
         contenedor.appendChild(divProducto);
     });

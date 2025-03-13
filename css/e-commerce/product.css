@@ -1,70 +1,146 @@
+/* --- FUENTES Y ESTILO GENERAL --- */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=EB+Garamond:wght@400;500&display=swap');
 
-  
-  /* Contenedor principal centrado y con tipografía legible */
-  main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    font-family: 'Arial', sans-serif;
-    color: #333;
-  }
-  
-  /* Tarjeta del producto */
-  .producto {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Título principal del producto */
-  .producto h1 {
-    font-size: 2em;
-    margin-bottom: 10px;
+body {
+  background-color: #f8ebe6; /* Fondo beige vintage */
+  font-family: 'EB Garamond', serif; /* Fuente clásica */
+  color: #4a2c2a; /* Marrón oscuro suave */
+  margin: 0;
+  padding: 0;
+  background: 
+    repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.2) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 2px), 
+    repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.2) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 2px), 
+    linear-gradient(180deg, #f8ebe6 0%, #f3d9d2 100%);
+}
+
+/* Contenedor principal de la página */
+#producto-detalle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  max-width: 1000px;
+  margin: 5rem auto; /* Espaciado para respirar */
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  transition: all 0.3s ease;
+}
+
+/* --- IMAGEN DEL PRODUCTO --- */
+.producto-imagen {
+  flex: 1; /* Ocupa el 50% en escritorio */
+  max-width: 400px;
+}
+
+.producto-imagen img {
+  width: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Sombra vintage */
+  transition: transform 0.3s ease;
+}
+
+.producto-imagen img:hover {
+  transform: scale(1.03);
+}
+
+/* --- INFORMACIÓN DEL PRODUCTO --- */
+.producto-info {
+  flex: 1; /* Ocupa el otro 50% */
+  text-align: left;
+  max-width: 450px;
+}
+
+/* Nombre del producto */
+.producto-nombre {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  color: #3a1e1a;
+}
+
+/* Subtítulo (frase elegante) */
+.producto-subtitulo {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #6a4f4b;
+  margin-bottom: 1rem;
+}
+
+/* Descripción */
+.producto-descripcion {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #5a3d3a;
+  margin-bottom: 1.5rem;
+}
+
+/* Precio */
+.producto-precio {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #640018;
+  margin-bottom: 1rem;
+}
+
+/* --- BOTÓN AÑADIR AL CARRITO --- */
+.btn-carrito {
+  background-color: #670b1b;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.8rem 1.8rem;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-carrito:hover {
+  background-color: #4b0713;
+  transform: translateY(-2px);
+}
+
+/* --- RESPONSIVIDAD: PARA TABLETS Y MÓVILES --- */
+@media (max-width: 768px) {
+  #producto-detalle {
+    flex-direction: column;
     text-align: center;
-    color: #222;
+    gap: 2rem;
   }
-  
-  /* Figura con la imagen del producto y leyenda */
-  .producto figure {
-    text-align: center;
-    margin: 20px 0;
-  }
-  
-  .producto figure img {
+
+  .producto-imagen,
+  .producto-info {
     max-width: 100%;
-    height: auto;
-    border-radius: 4px;
+    text-align: center;
   }
-  
-  .producto figure figcaption {
-    margin-top: 8px;
-    font-size: 0.9em;
-    color: #777;
+
+  .btn-carrito {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
   }
-  
-  /* Secciones para descripción y precio */
-  .producto section {
-    margin-top: 20px;
+}
+
+/* --- ANIMACIÓN DE APARICIÓN SUAVE --- */
+#producto-detalle {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.8s ease-in-out forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
   }
-  
-  .producto section h2 {
-    font-size: 1.4em;
-    margin-bottom: 10px;
-    color: #444;
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 5px;
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
-  .producto section p {
-    font-size: 1em;
-    line-height: 1.6;
-  }
-  
-  /* Precio destacado */
-  .producto section:last-of-type p strong {
-    font-size: 1.5em;
-    color: #ec488a; /* Color vibrante para llamar la atención sobre el precio */
-  }
-  
+}

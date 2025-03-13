@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Cerrar sesión
     document.getElementById("cerrarSesion").addEventListener("click", () => {
-        if (confirm("¿Estás seguro que deseas cerrar la sesión?\nSerás redirigido a la página de inicio")) {
+        if (confirm("¿Seguro que quieres cerrar sesión? ✨\n\nTe llevaremos de vuelta a la página de inicio.")) {
             cerrarSesion();
             location.href = "/index.html";
         }
@@ -25,8 +25,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Borrar usuario
     document.getElementById("eliminarUsuario").addEventListener("click", () => {
-        if (confirm("¿Estás seguro que deseas borrar la cuenta?\nEsta no se podrá recuperar")) {
-            alert("¡Cuenta borrada con éxito!\nSerás redirigido a la página de inicio");
+        if (confirm("¿Estás segura de que quieres borrar tu cuenta? ❌\n\nEsta acción es irreversible.")) {
+            alert("Tu cuenta ha sido eliminada. 💔\n\nTe llevaremos a la página de inicio.");
             eliminarUsuario();
             location.href = "/index.html";
         }

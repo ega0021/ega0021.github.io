@@ -34,15 +34,9 @@ function gestionarBotonMagico() {
 
 // 👁️: Pendiente de mejora
 function renderizarSesionIniciada() {
-    alert(`
-        ¡Sesión Iniciada!
-        Serás redirigido a tu página de usuario.
-    `);
+    alert("¡Bienvenida de nuevo! ✨\n\nTu sesión se ha iniciado correctamente. Te estamos llevando a tu espacio personal.");
 }
 
 function renderizarCuentaCreada() {
-    alert(`
-        ¡Cuenta Creada!
-        Serás redirigido a tu página de usuario.
-    `);
+    alert("¡Tu cuenta ha sido creada con éxito! 🎉\n\nAhora formas parte de The Sisterhood Clip. Te estamos redirigiendo a tu página de usuario.");
 }
